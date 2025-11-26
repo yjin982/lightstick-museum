@@ -1,5 +1,5 @@
 <script setup lang="ts">
-// 나중에 LightstickGrid 컴포넌트 import
+import { ref } from 'vue'
 </script>
 
 <template>

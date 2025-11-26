@@ -17,11 +17,13 @@
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.1.17",
+    "gitart-vue-dialog": "^3.1.0",
     "lucide-vue-next": "^0.554.0",
     "pinia": "^3.0.3",
     "tailwindcss": "^4.1.17",
     "vue": "^3.5.22",
-    "vue-router": "^4.6.3"
+    "vue-router": "^4.6.3",
+    "vue3-carousel": "^0.17.0"
   },
   "devDependencies": {
     "@tsconfig/node22": "^22.0.2",

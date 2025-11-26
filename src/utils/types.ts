@@ -7,4 +7,5 @@ export interface LightstickType {
   version: number
   group: boolean
   image: string
+  profile?: string
 }

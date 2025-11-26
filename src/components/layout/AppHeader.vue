@@ -8,9 +8,9 @@ const selectedAgency = ref('All')
 
 <template>
   <header class="sticky top-0 z-50 bg-white/95 backdrop-blur-sm border-b border-gray-100">
-    <div class="max-w-6xl mx-auto px-6 py-8 pb-6">
+    <div class="max-w-6xl mx-auto px-6">
       <!-- 타이틀 -->
-      <div class="text-center mb-8">
+      <div class="text-center">
         <h1
           class="text-3xl font-extrabold tracking-tight mb-1 bg-linear-to-r from-purple-600 to-purple-800 bg-clip-text text-transparent"
         >
@@ -54,7 +54,6 @@ const selectedAgency = ref('All')
 </template>
 
 <style scoped>
-/* Tailwind로 표현하기 어려운 것만 */
 .bg-clip-text {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;

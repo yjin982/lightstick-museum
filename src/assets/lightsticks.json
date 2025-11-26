@@ -8,7 +8,8 @@
       "tag": "",
       "version": 0,
       "group": true,
-      "image": "/images/82major.png"
+      "image": "/images/82major.png",
+      "profile": "https://search.pstatic.net/common?type=b&size=3000&quality=100&direct=true&src=http%3A%2F%2Fsstatic.naver.net%2Fpeople%2FprofileImg%2Fc443026e-aefd-4024-82d7-e88b84dc9355.jpg"
     },
     {
       "id": 2,
@@ -18,7 +19,8 @@
       "tag": "",
       "version": 0,
       "group": true,
-      "image": "/images/ab6ix.webp"
+      "image": "/images/ab6ix.webp",
+      "profile": "https://search.pstatic.net/common?type=a&size=3000&quality=100&direct=true&src=http%3A%2F%2Fsstatic.naver.net%2Fpeople%2FprofileImg%2F6e6cf82f-c9dc-4b34-abe9-cab7ad7594a9.jpg"
     },
     {
       "id": 3,
@@ -28,7 +30,8 @@
       "tag": "CJ ENM",
       "version": 0,
       "group": true,
-      "image": "/images/cjenm/wakeone_izna.png"
+      "image": "/images/cjenm/wakeone_izna.png",
+      "profile": "https://search.pstatic.net/common?type=a&size=3000&quality=100&direct=true&src=http%3A%2F%2Fsstatic.naver.net%2Fpeople%2FprofileImg%2F5bab2299-e935-4295-85a1-949d9ff96572.jpg"
     },
     {
       "id": 4,
@@ -38,7 +41,8 @@
       "tag": "CJ ENM",
       "version": 0,
       "group": true,
-      "image": "/images/cjenm/wakeone_zerobaseone.jpeg"
+      "image": "/images/cjenm/wakeone_zerobaseone.png",
+      "profile": "https://search.pstatic.net/common?type=a&size=3000&quality=100&direct=true&src=http%3A%2F%2Fsstatic.naver.net%2Fpeople%2FprofileImg%2Fb7fc5b6f-0f73-4970-b0ac-ce68092e8f86.jpg"
     },
     {
       "id": 5,
@@ -48,7 +52,8 @@
       "tag": "CJ ENM",
       "version": 1,
       "group": true,
-      "image": "/images/cjenm/wakeone_kep1er_v1.png"
+      "image": "/images/cjenm/wakeone_kep1er_v1.png",
+      "profile": "https://search.pstatic.net/common?type=b&size=3000&quality=100&direct=true&src=http%3A%2F%2Fsstatic.naver.net%2Fpeople%2FprofileImg%2F3ad8a45d-4391-4242-89f6-2b53324db03a.jpg"
     },
     {
       "id": 6,
@@ -58,7 +63,8 @@
       "tag": "CJ ENM",
       "version": 2,
       "group": true,
-      "image": "/images/cjenm/wakeone_kep1er_v2.png"
+      "image": "/images/cjenm/wakeone_kep1er_v2.jpg",
+      "profile": "https://search.pstatic.net/common?type=b&size=3000&quality=100&direct=true&src=http%3A%2F%2Fsstatic.naver.net%2Fpeople%2FprofileImg%2F3ad8a45d-4391-4242-89f6-2b53324db03a.jpg"
     },
     {
       "id": 7,
@@ -68,7 +74,8 @@
       "tag": "HYBE",
       "version": 0,
       "group": true,
-      "image": "/images/hybe/uslabel_catseye.png"
+      "image": "/images/hybe/uslabel_catseye.png",
+      "profile": "https://search.pstatic.net/common?type=a&size=3000&quality=100&direct=true&src=http%3A%2F%2Fsstatic.naver.net%2Fpeople%2FprofileImg%2Fbc686bdf-9a4d-465a-a195-c8a9307766cb.jpg"
     },
     {
       "id": 8,
@@ -78,27 +85,30 @@
       "tag": "HYBE",
       "version": 0,
       "group": true,
-      "image": "/images/hybe/bighit_bts.jpg"
+      "image": "/images/hybe/bighit_bts.jpg",
+      "profile": "https://search.pstatic.net/common?type=a&size=3000&quality=100&direct=true&src=http%3A%2F%2Fsstatic.naver.net%2Fpeople%2F68%2F2016100614403669371_thumb.jpg"
     },
     {
       "id": 9,
-      "artist": "투바투",
+      "artist": "투모로우바이투게더",
       "name": "",
       "agency": "빅히트",
       "tag": "HYBE",
       "version": 1,
       "group": true,
-      "image": "/images/hybe/bighit_txt_v1.webp"
+      "image": "/images/hybe/bighit_txt_v1.webp",
+      "profile": "https://search.pstatic.net/common?type=a&size=3000&quality=100&direct=true&src=http%3A%2F%2Fsstatic.naver.net%2Fpeople%2FprofileImg%2F3334aad0-1b3a-4a15-8e1d-7353164f8e7f.jpg"
     },
     {
       "id": 10,
-      "artist": "투바투",
+      "artist": "투모로우바이투게더",
       "name": "",
       "agency": "빅히트",
       "tag": "HYBE",
       "version": 2,
       "group": true,
-      "image": "/images/hybe/bighit_txt_v2.png"
+      "image": "/images/hybe/bighit_txt_v2.png",
+      "profile": "https://search.pstatic.net/common?type=a&size=3000&quality=100&direct=true&src=http%3A%2F%2Fsstatic.naver.net%2Fpeople%2FprofileImg%2F3334aad0-1b3a-4a15-8e1d-7353164f8e7f.jpg"
     },
     {
       "id": 11,
@@ -108,7 +118,8 @@
       "tag": "HYBE",
       "version": 0,
       "group": true,
-      "image": "/images/hybe/beliftlab_illit.png"
+      "image": "/images/hybe/beliftlab_illit.png",
+      "profile": "https://search.pstatic.net/common?type=a&size=3000&quality=100&direct=true&src=http%3A%2F%2Fsstatic.naver.net%2Fpeople%2FprofileImg%2F08b62d45-010e-478d-9f24-ede5746825fe.jpg"
     },
     {
       "id": 12,
@@ -118,7 +129,8 @@
       "tag": "HYBE",
       "version": 0,
       "group": true,
-      "image": "/images/hybe/beliftlab_enhypen.png"
+      "image": "/images/hybe/beliftlab_enhypen.png",
+      "profile": "https://search.pstatic.net/common?type=a&size=3000&quality=100&direct=true&src=http%3A%2F%2Fsstatic.naver.net%2Fpeople%2FprofileImg%2F3d28067c-247e-42b7-b7e6-e14b966b5086.jpg"
     },
     {
       "id": 13,
@@ -128,7 +140,8 @@
       "tag": "HYBE",
       "version": 0,
       "group": true,
-      "image": "/images/hybe/sourcemusic_lesserafim.png"
+      "image": "/images/hybe/sourcemusic_lesserafim.png",
+      "profile": "https://search.pstatic.net/common?type=a&size=3000&quality=100&direct=true&src=http%3A%2F%2Fsstatic.naver.net%2Fpeople%2FprofileImg%2Fbc86b841-8a12-4eac-a577-213a79a3a2f4.jpg"
     },
     {
       "id": 14,
@@ -138,7 +151,8 @@
       "tag": "HYBE",
       "version": 1,
       "group": true,
-      "image": "/images/hybe/sourcemusic_gfriend_v1.jpeg"
+      "image": "/images/hybe/sourcemusic_gfriend_v1.png",
+      "profile": "https://i.namu.wiki/i/0Vnjf1pK2HQhiRmqGmHqYJ8IsAN0aLR-C28rer-dV6TmPHIyuM5YjDO3jzZBiOCQcNf1CsqT3J_Jm-vyfnhACZxytbO7QHFH1VhA5TsZbv5HFxFX6_nBgJmrKLW_q8FGKMAFrgKoSJ_u78Mlr6ykDQ.webp"
     },
     {
       "id": 15,
@@ -148,7 +162,8 @@
       "tag": "HYBE",
       "version": 2,
       "group": true,
-      "image": "/images/hybe/sourcemusic_gfriend_v2.jpg"
+      "image": "/images/hybe/sourcemusic_gfriend_v2.jpg",
+      "profile": "https://i.namu.wiki/i/0Vnjf1pK2HQhiRmqGmHqYJ8IsAN0aLR-C28rer-dV6TmPHIyuM5YjDO3jzZBiOCQcNf1CsqT3J_Jm-vyfnhACZxytbO7QHFH1VhA5TsZbv5HFxFX6_nBgJmrKLW_q8FGKMAFrgKoSJ_u78Mlr6ykDQ.webp"
     },
     {
       "id": 16,
@@ -158,7 +173,8 @@
       "tag": "HYBE",
       "version": 3,
       "group": true,
-      "image": "/images/hybe/sourcemusic_gfriend_v3.webp"
+      "image": "/images/hybe/sourcemusic_gfriend_v3.png",
+      "profile": "https://i.namu.wiki/i/0Vnjf1pK2HQhiRmqGmHqYJ8IsAN0aLR-C28rer-dV6TmPHIyuM5YjDO3jzZBiOCQcNf1CsqT3J_Jm-vyfnhACZxytbO7QHFH1VhA5TsZbv5HFxFX6_nBgJmrKLW_q8FGKMAFrgKoSJ_u78Mlr6ykDQ.webp"
     },
     {
       "id": 17,
@@ -168,7 +184,8 @@
       "tag": "HYBE",
       "version": 0,
       "group": true,
-      "image": "/images/hybe/ador_newjeans.png"
+      "image": "/images/hybe/ador_newjeans.png",
+      "profile": "https://search.pstatic.net/common?type=b&size=3000&quality=100&direct=true&src=http%3A%2F%2Fsstatic.naver.net%2Fpeople%2FprofileImg%2Ff32824c3-8062-4a76-aa39-e375efe6dd2f.jpg"
     },
     {
       "id": 18,
@@ -178,7 +195,8 @@
       "tag": "HYBE",
       "version": 0,
       "group": true,
-      "image": "/images/hybe/jpnlabel_andteam.webp"
+      "image": "/images/hybe/jpnlabel_andteam.webp",
+      "profile": "https://search.pstatic.net/common?type=a&size=3000&quality=100&direct=true&src=http%3A%2F%2Fsstatic.naver.net%2Fpeople%2FprofileImg%2F698c2b72-2b29-4fc6-8d18-f53670ebac85.jpg"
     },
     {
       "id": 19,
@@ -188,7 +206,8 @@
       "tag": "HYBE",
       "version": 0,
       "group": true,
-      "image": "/images/hybe/kog_boynextdoor.webp"
+      "image": "/images/hybe/kog_boynextdoor.webp",
+      "profile": "https://search.pstatic.net/common?type=a&size=3000&quality=100&direct=true&src=http%3A%2F%2Fsstatic.naver.net%2Fpeople%2FprofileImg%2F0a60464d-1e64-4c9c-820a-1e886b89ce17.jpg"
     },
     {
       "id": 20,
@@ -198,7 +217,8 @@
       "tag": "HYBE",
       "version": 1,
       "group": true,
-      "image": "/images/hybe/pledis_seventeen_v1.jpg"
+      "image": "/images/hybe/pledis_seventeen_v1.jpg",
+      "profile": "https://search.pstatic.net/common?type=a&size=3000&quality=100&direct=true&src=http%3A%2F%2Fsstatic.naver.net%2Fpeople%2FprofileImg%2Ff94044a4-0a9c-486c-a98b-ab7332d93db0.jpg"
     },
     {
       "id": 21,
@@ -208,7 +228,8 @@
       "tag": "HYBE",
       "version": 2,
       "group": true,
-      "image": "/images/hybe/pledis_seventeen_v2.png"
+      "image": "/images/hybe/pledis_seventeen_v2.png",
+      "profile": "https://search.pstatic.net/common?type=a&size=3000&quality=100&direct=true&src=http%3A%2F%2Fsstatic.naver.net%2Fpeople%2FprofileImg%2Ff94044a4-0a9c-486c-a98b-ab7332d93db0.jpg"
     },
     {
       "id": 22,
@@ -218,7 +239,8 @@
       "tag": "HYBE",
       "version": 3,
       "group": true,
-      "image": "/images/hybe/pledis_seventeen_v3.jpg"
+      "image": "/images/hybe/pledis_seventeen_v3.jpg",
+      "profile": "https://search.pstatic.net/common?type=a&size=3000&quality=100&direct=true&src=http%3A%2F%2Fsstatic.naver.net%2Fpeople%2FprofileImg%2Ff94044a4-0a9c-486c-a98b-ab7332d93db0.jpg"
     },
     {
       "id": 23,
@@ -228,7 +250,8 @@
       "tag": "HYBE",
       "version": 0,
       "group": true,
-      "image": "/images/hybe/pledis_tws.png"
+      "image": "/images/hybe/pledis_tws.png",
+      "profile": "https://search.pstatic.net/common?type=a&size=3000&quality=100&direct=true&src=http%3A%2F%2Fsstatic.naver.net%2Fpeople%2FprofileImg%2Fe372e178-a879-488c-97f6-aa44b444057e.jpg"
     },
     {
       "id": 24,
