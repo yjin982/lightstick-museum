@@ -20,6 +20,7 @@ const handleSearch = () => {
 
 const clearSearch = () => {
   query.value = ''
+  store.setQuery(query.value)
 }
 </script>
 
@@ -66,12 +67,12 @@ const clearSearch = () => {
             class="flex-1 bg-transparent border-none outline-none text-gray-900 placeholder-gray-400"
             @keyup.enter="handleSearch"
           />
-          <X
-            :size="18"
-            class="text-gray-400 shrink-0 mr-4"
+          <button
             :class="query ? 'opacity-100' : 'opacity-0 pointer-events-none'"
             @click="clearSearch"
-          />
+          >
+            <X :size="18" class="text-gray-400 shrink-0" />
+          </button>
         </div>
         <button
           class="px-4 rounded-full border border-gray-500/30 hover:border-purple-500/30 text-gray-600 hover:text-purple-600 bg-white hover:bg-purple-100"

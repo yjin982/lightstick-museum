@@ -2,24 +2,24 @@
 import { useLightstickStore } from '@/stores/useLightstickStore'
 import { storeToRefs } from 'pinia'
 import LightstickCard from '@/components/lightsticks/LightstickCard.vue'
+import Pagination from '@/components/lightsticks/Pagination.vue'
 
 const store = useLightstickStore()
-const { groupedItems } = storeToRefs(store)
+const { paginatedItems } = storeToRefs(store)
 </script>
 
 <template>
   <div class="home">
-    <!-- 여기에 필터, 그리드, 페이지네이션 들어갈 예정 -->
     <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-6">
       <LightstickCard
-        v-for="group in groupedItems"
+        v-for="group in paginatedItems"
         :key="group.main.id"
         :light-stick="group.main"
         :versions="group.versions"
         :url="group.main?.profile ?? ''"
       />
     </div>
-    <div>페이지네이션</div>
+    <div><Pagination /></div>
   </div>
 </template>
 
