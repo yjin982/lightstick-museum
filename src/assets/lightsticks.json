@@ -4,60 +4,65 @@
       "id": 1,
       "artist": "82Major",
       "name": "",
-      "agency": "",
+      "agency": "그레이트엠 엔터테인먼트",
       "tag": "",
       "version": 0,
       "group": true,
       "image": "/images/82major.png",
-      "profile": "https://search.pstatic.net/common?type=b&size=3000&quality=100&direct=true&src=http%3A%2F%2Fsstatic.naver.net%2Fpeople%2FprofileImg%2Fc443026e-aefd-4024-82d7-e88b84dc9355.jpg"
+      "profile": "https://search.pstatic.net/common?type=b&size=3000&quality=100&direct=true&src=http%3A%2F%2Fsstatic.naver.net%2Fpeople%2FprofileImg%2Fc443026e-aefd-4024-82d7-e88b84dc9355.jpg",
+      "keywords": ["에이투메이저", "에투메"]
     },
     {
       "id": 2,
       "artist": "AB6IX",
       "name": "옙봉",
-      "agency": "",
+      "agency": "브랜뉴뮤직",
       "tag": "",
       "version": 0,
       "group": true,
       "image": "/images/ab6ix.webp",
-      "profile": "https://search.pstatic.net/common?type=a&size=3000&quality=100&direct=true&src=http%3A%2F%2Fsstatic.naver.net%2Fpeople%2FprofileImg%2F6e6cf82f-c9dc-4b34-abe9-cab7ad7594a9.jpg"
+      "profile": "https://search.pstatic.net/common?type=a&size=3000&quality=100&direct=true&src=http%3A%2F%2Fsstatic.naver.net%2Fpeople%2FprofileImg%2F6e6cf82f-c9dc-4b34-abe9-cab7ad7594a9.jpg",
+      "keywords": ["에비식스", "에비"]
     },
     {
       "id": 3,
-      "artist": "이즈나",
+      "artist": "izna",
       "name": "",
       "agency": "웨이크원",
       "tag": "CJ ENM",
       "version": 0,
       "group": true,
       "image": "/images/cjenm/wakeone_izna.png",
-      "profile": "https://search.pstatic.net/common?type=a&size=3000&quality=100&direct=true&src=http%3A%2F%2Fsstatic.naver.net%2Fpeople%2FprofileImg%2F5bab2299-e935-4295-85a1-949d9ff96572.jpg"
+      "profile": "https://search.pstatic.net/common?type=a&size=3000&quality=100&direct=true&src=http%3A%2F%2Fsstatic.naver.net%2Fpeople%2FprofileImg%2F5bab2299-e935-4295-85a1-949d9ff96572.jpg",
+      "keywords": ["이즈나"]
     },
     {
       "id": 4,
-      "artist": "제로베이스원",
+      "artist": "ZEROBASEONE",
       "name": "로즈링",
       "agency": "웨이크원",
       "tag": "CJ ENM",
       "version": 0,
       "group": true,
       "image": "/images/cjenm/wakeone_zerobaseone.png",
-      "profile": "https://search.pstatic.net/common?type=a&size=3000&quality=100&direct=true&src=http%3A%2F%2Fsstatic.naver.net%2Fpeople%2FprofileImg%2Fb7fc5b6f-0f73-4970-b0ac-ce68092e8f86.jpg"
+      "profile": "https://search.pstatic.net/common?type=a&size=3000&quality=100&direct=true&src=http%3A%2F%2Fsstatic.naver.net%2Fpeople%2FprofileImg%2Fb7fc5b6f-0f73-4970-b0ac-ce68092e8f86.jpg",
+      "keywords": ["제베원", "제로베이스원", "ZB1"]
     },
     {
       "id": 5,
-      "artist": "케플러",
+      "artist": "Kep1er",
       "name": "",
       "agency": "웨이크원",
       "tag": "CJ ENM",
       "version": 1,
       "group": true,
       "image": "/images/cjenm/wakeone_kep1er_v1.png",
-      "profile": "https://search.pstatic.net/common?type=b&size=3000&quality=100&direct=true&src=http%3A%2F%2Fsstatic.naver.net%2Fpeople%2FprofileImg%2F3ad8a45d-4391-4242-89f6-2b53324db03a.jpg"
+      "profile": "https://search.pstatic.net/common?type=b&size=3000&quality=100&direct=true&src=http%3A%2F%2Fsstatic.naver.net%2Fpeople%2FprofileImg%2F3ad8a45d-4391-4242-89f6-2b53324db03a.jpg",
+      "keywords": ["케플러"]
     },
     {
       "id": 6,
-      "artist": "케플러",
+      "artist": "Kep1er",
       "name": "",
       "agency": "웨이크원",
       "tag": "CJ ENM",
@@ -68,14 +73,15 @@
     },
     {
       "id": 7,
-      "artist": "캣츠아이",
+      "artist": "KATSEYE",
       "name": "아이라이터",
       "agency": "HYBE UMG",
       "tag": "HYBE",
       "version": 0,
       "group": true,
       "image": "/images/hybe/uslabel_catseye.png",
-      "profile": "https://search.pstatic.net/common?type=a&size=3000&quality=100&direct=true&src=http%3A%2F%2Fsstatic.naver.net%2Fpeople%2FprofileImg%2Fbc686bdf-9a4d-465a-a195-c8a9307766cb.jpg"
+      "profile": "https://search.pstatic.net/common?type=a&size=3000&quality=100&direct=true&src=http%3A%2F%2Fsstatic.naver.net%2Fpeople%2FprofileImg%2Fbc686bdf-9a4d-465a-a195-c8a9307766cb.jpg",
+      "keywords": ["캣츠아이"]
     },
     {
       "id": 8,
@@ -86,7 +92,8 @@
       "version": 0,
       "group": true,
       "image": "/images/hybe/bighit_bts.jpg",
-      "profile": "https://search.pstatic.net/common?type=a&size=3000&quality=100&direct=true&src=http%3A%2F%2Fsstatic.naver.net%2Fpeople%2F68%2F2016100614403669371_thumb.jpg"
+      "profile": "https://search.pstatic.net/common?type=a&size=3000&quality=100&direct=true&src=http%3A%2F%2Fsstatic.naver.net%2Fpeople%2F68%2F2016100614403669371_thumb.jpg",
+      "keywords": ["BTS", "비티에스"]
     },
     {
       "id": 9,
@@ -97,7 +104,8 @@
       "version": 1,
       "group": true,
       "image": "/images/hybe/bighit_txt_v1.webp",
-      "profile": "https://search.pstatic.net/common?type=a&size=3000&quality=100&direct=true&src=http%3A%2F%2Fsstatic.naver.net%2Fpeople%2FprofileImg%2F3334aad0-1b3a-4a15-8e1d-7353164f8e7f.jpg"
+      "profile": "https://search.pstatic.net/common?type=a&size=3000&quality=100&direct=true&src=http%3A%2F%2Fsstatic.naver.net%2Fpeople%2FprofileImg%2F3334aad0-1b3a-4a15-8e1d-7353164f8e7f.jpg",
+      "keywords": ["TOMORROWXTOGETHER", "투바투"]
     },
     {
       "id": 10,
@@ -112,14 +120,15 @@
     },
     {
       "id": 11,
-      "artist": "아일릿",
+      "artist": "ILLIT",
       "name": "글릿봉",
       "agency": "빌리프랩",
       "tag": "HYBE",
       "version": 0,
       "group": true,
       "image": "/images/hybe/beliftlab_illit.png",
-      "profile": "https://search.pstatic.net/common?type=a&size=3000&quality=100&direct=true&src=http%3A%2F%2Fsstatic.naver.net%2Fpeople%2FprofileImg%2F08b62d45-010e-478d-9f24-ede5746825fe.jpg"
+      "profile": "https://search.pstatic.net/common?type=a&size=3000&quality=100&direct=true&src=http%3A%2F%2Fsstatic.naver.net%2Fpeople%2FprofileImg%2F08b62d45-010e-478d-9f24-ede5746825fe.jpg",
+      "keywords": ["아일릿"]
     },
     {
       "id": 12,
@@ -130,18 +139,20 @@
       "version": 0,
       "group": true,
       "image": "/images/hybe/beliftlab_enhypen.png",
-      "profile": "https://search.pstatic.net/common?type=a&size=3000&quality=100&direct=true&src=http%3A%2F%2Fsstatic.naver.net%2Fpeople%2FprofileImg%2F3d28067c-247e-42b7-b7e6-e14b966b5086.jpg"
+      "profile": "https://search.pstatic.net/common?type=a&size=3000&quality=100&direct=true&src=http%3A%2F%2Fsstatic.naver.net%2Fpeople%2FprofileImg%2F3d28067c-247e-42b7-b7e6-e14b966b5086.jpg",
+      "keywords": ["ENHYPEN"]
     },
     {
       "id": 13,
-      "artist": "르세라핌",
+      "artist": "LE SSERAFIM",
       "name": "핌봉",
       "agency": "쏘스뮤직",
       "tag": "HYBE",
       "version": 0,
       "group": true,
       "image": "/images/hybe/sourcemusic_lesserafim.png",
-      "profile": "https://search.pstatic.net/common?type=a&size=3000&quality=100&direct=true&src=http%3A%2F%2Fsstatic.naver.net%2Fpeople%2FprofileImg%2Fbc86b841-8a12-4eac-a577-213a79a3a2f4.jpg"
+      "profile": "https://search.pstatic.net/common?type=a&size=3000&quality=100&direct=true&src=http%3A%2F%2Fsstatic.naver.net%2Fpeople%2FprofileImg%2Fbc86b841-8a12-4eac-a577-213a79a3a2f4.jpg",
+      "keywords": ["르세라핌"]
     },
     {
       "id": 14,
@@ -152,7 +163,8 @@
       "version": 1,
       "group": true,
       "image": "/images/hybe/sourcemusic_gfriend_v1.png",
-      "profile": "https://i.namu.wiki/i/0Vnjf1pK2HQhiRmqGmHqYJ8IsAN0aLR-C28rer-dV6TmPHIyuM5YjDO3jzZBiOCQcNf1CsqT3J_Jm-vyfnhACZxytbO7QHFH1VhA5TsZbv5HFxFX6_nBgJmrKLW_q8FGKMAFrgKoSJ_u78Mlr6ykDQ.webp"
+      "profile": "https://i.namu.wiki/i/0Vnjf1pK2HQhiRmqGmHqYJ8IsAN0aLR-C28rer-dV6TmPHIyuM5YjDO3jzZBiOCQcNf1CsqT3J_Jm-vyfnhACZxytbO7QHFH1VhA5TsZbv5HFxFX6_nBgJmrKLW_q8FGKMAFrgKoSJ_u78Mlr6ykDQ.webp",
+      "keywords": ["GFRIEND"]
     },
     {
       "id": 15,
@@ -178,36 +190,39 @@
     },
     {
       "id": 17,
-      "artist": "뉴진스",
+      "artist": "NewJeans",
       "name": "빙키봉",
       "agency": "어도어",
       "tag": "HYBE",
       "version": 0,
       "group": true,
       "image": "/images/hybe/ador_newjeans.png",
-      "profile": "https://search.pstatic.net/common?type=b&size=3000&quality=100&direct=true&src=http%3A%2F%2Fsstatic.naver.net%2Fpeople%2FprofileImg%2Ff32824c3-8062-4a76-aa39-e375efe6dd2f.jpg"
+      "profile": "https://search.pstatic.net/common?type=b&size=3000&quality=100&direct=true&src=http%3A%2F%2Fsstatic.naver.net%2Fpeople%2FprofileImg%2Ff32824c3-8062-4a76-aa39-e375efe6dd2f.jpg",
+      "keywords": ["뉴진스"]
     },
     {
       "id": 18,
-      "artist": "앤팀",
+      "artist": "&TEAM",
       "name": "",
-      "agency": "일본레이블",
+      "agency": "YX LABELS",
       "tag": "HYBE",
       "version": 0,
       "group": true,
       "image": "/images/hybe/jpnlabel_andteam.webp",
-      "profile": "https://search.pstatic.net/common?type=a&size=3000&quality=100&direct=true&src=http%3A%2F%2Fsstatic.naver.net%2Fpeople%2FprofileImg%2F698c2b72-2b29-4fc6-8d18-f53670ebac85.jpg"
+      "profile": "https://search.pstatic.net/common?type=a&size=3000&quality=100&direct=true&src=http%3A%2F%2Fsstatic.naver.net%2Fpeople%2FprofileImg%2F698c2b72-2b29-4fc6-8d18-f53670ebac85.jpg",
+      "keywords": ["앤팀"]
     },
     {
       "id": 19,
-      "artist": "보이넥스트도어",
+      "artist": "BOYNEXTDOOR",
       "name": "원더스틱",
       "agency": "케이오지",
       "tag": "HYBE",
       "version": 0,
       "group": true,
       "image": "/images/hybe/kog_boynextdoor.webp",
-      "profile": "https://search.pstatic.net/common?type=a&size=3000&quality=100&direct=true&src=http%3A%2F%2Fsstatic.naver.net%2Fpeople%2FprofileImg%2F0a60464d-1e64-4c9c-820a-1e886b89ce17.jpg"
+      "profile": "https://search.pstatic.net/common?type=a&size=3000&quality=100&direct=true&src=http%3A%2F%2Fsstatic.naver.net%2Fpeople%2FprofileImg%2F0a60464d-1e64-4c9c-820a-1e886b89ce17.jpg",
+      "keywords": ["보넥도", "보이넥스트도어"]
     },
     {
       "id": 20,
@@ -218,7 +233,8 @@
       "version": 1,
       "group": true,
       "image": "/images/hybe/pledis_seventeen_v1.jpg",
-      "profile": "https://search.pstatic.net/common?type=a&size=3000&quality=100&direct=true&src=http%3A%2F%2Fsstatic.naver.net%2Fpeople%2FprofileImg%2Ff94044a4-0a9c-486c-a98b-ab7332d93db0.jpg"
+      "profile": "https://search.pstatic.net/common?type=a&size=3000&quality=100&direct=true&src=http%3A%2F%2Fsstatic.naver.net%2Fpeople%2FprofileImg%2Ff94044a4-0a9c-486c-a98b-ab7332d93db0.jpg",
+      "keywords": ["SEVENTEEN"]
     },
     {
       "id": 21,
@@ -244,14 +260,15 @@
     },
     {
       "id": 23,
-      "artist": "투어스",
+      "artist": "TWS",
       "name": "투로나봉",
       "agency": "플레디스",
       "tag": "HYBE",
       "version": 0,
       "group": true,
       "image": "/images/hybe/pledis_tws.png",
-      "profile": "https://search.pstatic.net/common?type=a&size=3000&quality=100&direct=true&src=http%3A%2F%2Fsstatic.naver.net%2Fpeople%2FprofileImg%2Fe372e178-a879-488c-97f6-aa44b444057e.jpg"
+      "profile": "https://search.pstatic.net/common?type=a&size=3000&quality=100&direct=true&src=http%3A%2F%2Fsstatic.naver.net%2Fpeople%2FprofileImg%2Fe372e178-a879-488c-97f6-aa44b444057e.jpg",
+      "keywords": ["투어스"]
     },
     {
       "id": 24,
@@ -262,7 +279,8 @@
       "version": 1,
       "group": true,
       "image": "/images/jyp/day6_v1.png",
-      "profile": "https://search.pstatic.net/common?type=a&size=3000&quality=100&direct=true&src=http%3A%2F%2Fsstatic.naver.net%2Fpeople%2FprofileImg%2F2af0b361-f61a-4b85-9cd9-415268ff5de8.png"
+      "profile": "https://search.pstatic.net/common?type=a&size=3000&quality=100&direct=true&src=http%3A%2F%2Fsstatic.naver.net%2Fpeople%2FprofileImg%2F2af0b361-f61a-4b85-9cd9-415268ff5de8.png",
+      "keywords": ["데이식스", "데식"]
     },
     {
       "id": 25,
@@ -295,7 +313,8 @@
       "version": 0,
       "group": true,
       "image": "/images/jyp/straykids.jpg",
-      "profile": "https://search.pstatic.net/common?type=a&size=3000&quality=100&direct=true&src=http%3A%2F%2Fsstatic.naver.net%2Fpeople%2FprofileImg%2F38b20f3c-71b1-4764-b0ac-8418cedb4b4b.jpg"
+      "profile": "https://search.pstatic.net/common?type=a&size=3000&quality=100&direct=true&src=http%3A%2F%2Fsstatic.naver.net%2Fpeople%2FprofileImg%2F38b20f3c-71b1-4764-b0ac-8418cedb4b4b.jpg",
+      "keywords": ["스트레이 키즈", "스키즈"]
     },
     {
       "id": 28,
@@ -306,7 +325,8 @@
       "version": 0,
       "group": true,
       "image": "/images/jyp/xdinaryheroes.png",
-      "profile": "https://search.pstatic.net/common?type=b&size=3000&quality=100&direct=true&src=http%3A%2F%2Fsstatic.naver.net%2Fpeople%2FprofileImg%2Fd7b4950d-b23c-448a-a18f-08dea8523933.png"
+      "profile": "https://search.pstatic.net/common?type=b&size=3000&quality=100&direct=true&src=http%3A%2F%2Fsstatic.naver.net%2Fpeople%2FprofileImg%2Fd7b4950d-b23c-448a-a18f-08dea8523933.png",
+      "keywords": ["엑스디너리 히어로즈", "엑디즈"]
     },
     {
       "id": 29,
@@ -317,7 +337,8 @@
       "version": 0,
       "group": true,
       "image": "/images/jyp/nmixx.png",
-      "profile": "https://search.pstatic.net/common?type=a&size=3000&quality=100&direct=true&src=http%3A%2F%2Fsstatic.naver.net%2Fpeople%2FprofileImg%2Fd070faa8-86fe-4315-a7a2-2fa8db7941cc.jpg"
+      "profile": "https://search.pstatic.net/common?type=a&size=3000&quality=100&direct=true&src=http%3A%2F%2Fsstatic.naver.net%2Fpeople%2FprofileImg%2Fd070faa8-86fe-4315-a7a2-2fa8db7941cc.jpg",
+      "keywords": ["엔믹스"]
     },
     {
       "id": 30,
@@ -328,7 +349,8 @@
       "version": 1,
       "group": true,
       "image": "/images/jyp/itzy_v1.jpg",
-      "profile": "https://search.pstatic.net/common?type=a&size=3000&quality=100&direct=true&src=http%3A%2F%2Fsstatic.naver.net%2Fpeople%2FprofileImg%2F7e8ddc4b-5b0c-4d82-a351-3bb19e75ace9.jpg"
+      "profile": "https://search.pstatic.net/common?type=a&size=3000&quality=100&direct=true&src=http%3A%2F%2Fsstatic.naver.net%2Fpeople%2FprofileImg%2F7e8ddc4b-5b0c-4d82-a351-3bb19e75ace9.jpg",
+      "keywords": ["있지"]
     },
     {
       "id": 31,
@@ -350,7 +372,8 @@
       "version": 0,
       "group": true,
       "image": "/images/jyp/kickflip.png",
-      "profile": "https://i.namu.wiki/i/Y7wJQaT-A2jd9iU7rxTz1X6yUQvlTcuJQz1uAeMBmA-23JL9Lj3G3IeqSBMarD8u9RO1cHr1QQjNN9F10c0RZ4v3S8agaG0g_Pb5sEzgsWU_8u6Q8NIgkTI_CN5Q3mCpKsB4rGe0hZ1IMmtfCFL7Ow.webp"
+      "profile": "https://i.namu.wiki/i/Y7wJQaT-A2jd9iU7rxTz1X6yUQvlTcuJQz1uAeMBmA-23JL9Lj3G3IeqSBMarD8u9RO1cHr1QQjNN9F10c0RZ4v3S8agaG0g_Pb5sEzgsWU_8u6Q8NIgkTI_CN5Q3mCpKsB4rGe0hZ1IMmtfCFL7Ow.webp",
+      "keywords": ["킥플립"]
     },
     {
       "id": 33,
@@ -361,7 +384,8 @@
       "version": 1,
       "group": true,
       "image": "/images/jyp/twice_v1.png",
-      "profile": "https://search.pstatic.net/common?type=a&size=3000&quality=100&direct=true&src=http%3A%2F%2Fsstatic.naver.net%2Fpeople%2FprofileImg%2F999fb907-68f2-499d-94cd-6be745a24580.jpg"
+      "profile": "https://search.pstatic.net/common?type=a&size=3000&quality=100&direct=true&src=http%3A%2F%2Fsstatic.naver.net%2Fpeople%2FprofileImg%2F999fb907-68f2-499d-94cd-6be745a24580.jpg",
+      "keywords": ["트와이스"]
     },
     {
       "id": 34,
@@ -393,7 +417,8 @@
       "tag": "Kakao",
       "version": 1,
       "group": true,
-      "image": "/images/kakao/starship_monstax_v1.png"
+      "image": "/images/kakao/starship_monstax_v1.png",
+      "keywords": ["몬스타엑스", "몬엑"]
     },
     {
       "id": 37,
@@ -425,7 +450,8 @@
       "version": 0,
       "group": true,
       "image": "/images/kakao/starship_ive.webp",
-      "profile": "https://search.pstatic.net/common?type=a&size=3000&quality=100&direct=true&src=http%3A%2F%2Fsstatic.naver.net%2Fpeople%2FprofileImg%2F2af879d3-78a7-42e6-bbe6-b0455176f8de.jpg"
+      "profile": "https://search.pstatic.net/common?type=a&size=3000&quality=100&direct=true&src=http%3A%2F%2Fsstatic.naver.net%2Fpeople%2FprofileImg%2F2af879d3-78a7-42e6-bbe6-b0455176f8de.jpg",
+      "keywords": ["아이브"]
     },
     {
       "id": 40,
@@ -447,7 +473,8 @@
       "version": 0,
       "group": true,
       "image": "/images/kakao/starship_wjsn.jpg",
-      "profile": "https://search.pstatic.net/common?type=a&size=3000&quality=100&direct=true&src=http%3A%2F%2Fsstatic.naver.net%2Fpeople%2FportraitGroup%2F202303%2F20230313180533242.jpg"
+      "profile": "https://search.pstatic.net/common?type=a&size=3000&quality=100&direct=true&src=http%3A%2F%2Fsstatic.naver.net%2Fpeople%2FportraitGroup%2F202303%2F20230313180533242.jpg",
+      "keywords": ["우소", "WJSN"]
     },
     {
       "id": 42,
@@ -458,7 +485,8 @@
       "version": 0,
       "group": true,
       "image": "/images/kakao/starship_cravity.jpg",
-      "profile": "https://search.pstatic.net/common?type=a&size=3000&quality=100&direct=true&src=http%3A%2F%2Fsstatic.naver.net%2Fpeople%2FprofileImg%2F0325354b-fe64-4bde-957b-ac53128582c0.jpg"
+      "profile": "https://search.pstatic.net/common?type=a&size=3000&quality=100&direct=true&src=http%3A%2F%2Fsstatic.naver.net%2Fpeople%2FprofileImg%2F0325354b-fe64-4bde-957b-ac53128582c0.jpg",
+      "keywords": ["크래비티"]
     },
     {
       "id": 43,
@@ -469,7 +497,8 @@
       "version": 0,
       "group": false,
       "image": "/images/kakao/edam_iu.jpg",
-      "profile": "https://search.pstatic.net/common?type=b&size=3000&quality=100&direct=true&src=http%3A%2F%2Fsstatic.naver.net%2Fpeople%2Fportrait%2F202304%2F20230428214640258.jpg"
+      "profile": "https://search.pstatic.net/common?type=b&size=3000&quality=100&direct=true&src=http%3A%2F%2Fsstatic.naver.net%2Fpeople%2Fportrait%2F202304%2F20230428214640258.jpg",
+      "keywords": ["IU"]
     },
     {
       "id": 44,
@@ -480,35 +509,38 @@
       "version": 0,
       "group": true,
       "image": "/images/kakao/highup_stayc.jpg",
-      "profile": "https://search.pstatic.net/common?type=a&size=3000&quality=100&direct=true&src=http%3A%2F%2Fsstatic.naver.net%2Fpeople%2FprofileImg%2Fa95f1503-86d5-4ed9-8342-3ec847133301.jpg"
+      "profile": "https://search.pstatic.net/common?type=a&size=3000&quality=100&direct=true&src=http%3A%2F%2Fsstatic.naver.net%2Fpeople%2FprofileImg%2Fa95f1503-86d5-4ed9-8342-3ec847133301.jpg",
+      "keywords": ["스테이씨"]
     },
     {
       "id": 45,
       "artist": "POW",
       "name": "",
-      "agency": "파우",
+      "agency": "그리드엔터테인먼트",
       "tag": "",
       "version": 0,
       "group": true,
       "image": "/images/pow.jpg",
-      "profile": "https://search.pstatic.net/common?type=a&size=3000&quality=100&direct=true&src=http%3A%2F%2Fsstatic.naver.net%2Fpeople%2FprofileImg%2F7d3a43c6-634e-4fac-b4c5-8c78ba9b4a71.jpg"
+      "profile": "https://search.pstatic.net/common?type=a&size=3000&quality=100&direct=true&src=http%3A%2F%2Fsstatic.naver.net%2Fpeople%2FprofileImg%2F7d3a43c6-634e-4fac-b4c5-8c78ba9b4a71.jpg",
+      "keywords": ["파우"]
     },
     {
       "id": 46,
       "artist": "SF9",
       "name": "지구봉",
-      "agency": "",
+      "agency": "FNC엔터테인먼트",
       "tag": "",
       "version": 1,
       "group": true,
       "image": "/images/sf9_v1.png",
-      "profile": "https://search.pstatic.net/common?type=a&size=3000&quality=100&direct=true&src=http%3A%2F%2Fsstatic.naver.net%2Fpeople%2FprofileImg%2Ff618df4c-4fa0-49a5-936a-7e7b16617d91.jpg"
+      "profile": "https://search.pstatic.net/common?type=a&size=3000&quality=100&direct=true&src=http%3A%2F%2Fsstatic.naver.net%2Fpeople%2FprofileImg%2Ff618df4c-4fa0-49a5-936a-7e7b16617d91.jpg",
+      "keywords": ["습9", "에스에프나인"]
     },
     {
       "id": 47,
       "artist": "SF9",
       "name": "지구봉",
-      "agency": "",
+      "agency": "FNC엔터테인먼트",
       "tag": "",
       "version": 2,
       "group": true,
@@ -524,7 +556,8 @@
       "version": 0,
       "group": true,
       "image": "/images/sm/tvxq.png",
-      "profile": "https://i.namu.wiki/i/K7VdWON6MkxlEkOymOgeeU_N_Z13tHXBxMkllpYnoZPjt0Y0-PBzFWigz9DZjopgKYs5A_m4EWFTuUg6S-7EWdfc0BLqXEb8InsQSaKeVx02t1FAFyMLTPtKyTQayYngsEMOKsg6Ddks5WX4LFCDtA.webp"
+      "profile": "https://i.namu.wiki/i/K7VdWON6MkxlEkOymOgeeU_N_Z13tHXBxMkllpYnoZPjt0Y0-PBzFWigz9DZjopgKYs5A_m4EWFTuUg6S-7EWdfc0BLqXEb8InsQSaKeVx02t1FAFyMLTPtKyTQayYngsEMOKsg6Ddks5WX4LFCDtA.webp",
+      "keywords": ["동방신기"]
     },
     {
       "id": 49,
@@ -535,7 +568,8 @@
       "version": 0,
       "group": true,
       "image": "/images/sm/riize.png",
-      "profile": "https://search.pstatic.net/common?type=a&size=3000&quality=100&direct=true&src=http%3A%2F%2Fsstatic.naver.net%2Fpeople%2FprofileImg%2F2ca9854a-e946-4f05-8b56-2d7ec6cd0fbf.jpg"
+      "profile": "https://search.pstatic.net/common?type=a&size=3000&quality=100&direct=true&src=http%3A%2F%2Fsstatic.naver.net%2Fpeople%2FprofileImg%2F2ca9854a-e946-4f05-8b56-2d7ec6cd0fbf.jpg",
+      "keywords": ["라이즈"]
     },
     {
       "id": 50,
@@ -546,7 +580,8 @@
       "version": 0,
       "group": true,
       "image": "/images/sm/redvelvet.png",
-      "profile": "https://i.namu.wiki/i/eypuvIlzVxTwTrF3rNkF0A7qLB2mjWKPtP1PDyIWGMvROEsUg2pqvlYVW0yS7Sv33OexK6jGxy7zBDA_Q4dwlgeXhHcqdfAn5r7VIWLfwzgygR_jC67ad109PDphw891quRmiE7_0xrKY_57ACWs7g.webp"
+      "profile": "https://i.namu.wiki/i/eypuvIlzVxTwTrF3rNkF0A7qLB2mjWKPtP1PDyIWGMvROEsUg2pqvlYVW0yS7Sv33OexK6jGxy7zBDA_Q4dwlgeXhHcqdfAn5r7VIWLfwzgygR_jC67ad109PDphw891quRmiE7_0xrKY_57ACWs7g.webp",
+      "keywords": ["레드벨벳", "레벨"]
     },
     {
       "id": 51,
@@ -557,7 +592,8 @@
       "version": 0,
       "group": false,
       "image": "/images/sm/boa.jpg",
-      "profile": "https://i.namu.wiki/i/OGSxGc3T4IRp01q9ChSTaj69YIGeNR5HG0yZdUIcwHBwZ5X3qz3IjZphT1pK_SDhoOmlFHLbjDOny9qFx2FPFUmp6yMpHUp-EAZrLW0EsNaO9CmIaD-bvzAlNi8IH8wf7hAWIvsW-_DsXcShIAbMLg.webp"
+      "profile": "https://i.namu.wiki/i/OGSxGc3T4IRp01q9ChSTaj69YIGeNR5HG0yZdUIcwHBwZ5X3qz3IjZphT1pK_SDhoOmlFHLbjDOny9qFx2FPFUmp6yMpHUp-EAZrLW0EsNaO9CmIaD-bvzAlNi8IH8wf7hAWIvsW-_DsXcShIAbMLg.webp",
+      "keywords": ["보아"]
     },
     {
       "id": 52,
@@ -568,7 +604,8 @@
       "version": 0,
       "group": true,
       "image": "/images/sm/shinee_v0.png",
-      "profile": "https://i.namu.wiki/i/URC9Un_e8w-eVu7ujhJ0ExijPeh0ZdG2eydwkpfHYDScwJGiy9OFzXKcoZRSj2hQWgXAfHLxgMrZ1fmIKWlHCKWnqlwju-isFOXBIX7Kl5DD43ozZGy8oVTHzH4T4WypsRVtoDVWAZsHdMt-Ny9OIg.webp"
+      "profile": "https://i.namu.wiki/i/URC9Un_e8w-eVu7ujhJ0ExijPeh0ZdG2eydwkpfHYDScwJGiy9OFzXKcoZRSj2hQWgXAfHLxgMrZ1fmIKWlHCKWnqlwju-isFOXBIX7Kl5DD43ozZGy8oVTHzH4T4WypsRVtoDVWAZsHdMt-Ny9OIg.webp",
+      "keywords": ["샤이니"]
     },
     {
       "id": 53,
@@ -612,7 +649,8 @@
       "version": 0,
       "group": true,
       "image": "/images/sm/snsd.jpg",
-      "profile": "https://i.namu.wiki/i/n4Q7PP71cAsTrYfjDtqAsPwfoxo9nsMwhB3bG3xSU4AP3lFXlEXdB4uri808QYMEamzzztUYSSBrbSWiFChzKpxuU2XU4kFCTBt20DcR3lAkL-1LHurfDw9nNp0uyOV5xgpGzdz97PAdJ2BWKvDpEA.webp"
+      "profile": "https://i.namu.wiki/i/n4Q7PP71cAsTrYfjDtqAsPwfoxo9nsMwhB3bG3xSU4AP3lFXlEXdB4uri808QYMEamzzztUYSSBrbSWiFChzKpxuU2XU4kFCTBt20DcR3lAkL-1LHurfDw9nNp0uyOV5xgpGzdz97PAdJ2BWKvDpEA.webp",
+      "keywords": ["소시", "SNSD"]
     },
     {
       "id": 57,
@@ -623,7 +661,8 @@
       "version": 0,
       "group": true,
       "image": "/images/sm/superjunior.jpg",
-      "profile": "https://i.namu.wiki/i/bTWKAWZQJkyirM9kdp1pJTJIv73q0oadHt4CwVKvuVm4lGaaIkm_cDISJywvSKQvafO5Jfa45vc8Cznc0TEXYnYpSDt2v0E4Din9O7Xhi6YwZOICLkIJvP7-6PdAPkHP7ar2r0HwZrd9TTWeVGLaaA.webp"
+      "profile": "https://i.namu.wiki/i/bTWKAWZQJkyirM9kdp1pJTJIv73q0oadHt4CwVKvuVm4lGaaIkm_cDISJywvSKQvafO5Jfa45vc8Cznc0TEXYnYpSDt2v0E4Din9O7Xhi6YwZOICLkIJvP7-6PdAPkHP7ar2r0HwZrd9TTWeVGLaaA.webp",
+      "keywords": ["슈퍼주니어", "슈주"]
     },
     {
       "id": 58,
@@ -645,7 +684,8 @@
       "version": 0,
       "group": true,
       "image": "/images/sm/aespa.webp",
-      "profile": "https://search.pstatic.net/common?type=a&size=3000&quality=100&direct=true&src=http%3A%2F%2Fsstatic.naver.net%2Fpeople%2FprofileImg%2Fb1f064e7-c886-49d6-bb1d-acbb1e6ceb39.jpg"
+      "profile": "https://search.pstatic.net/common?type=a&size=3000&quality=100&direct=true&src=http%3A%2F%2Fsstatic.naver.net%2Fpeople%2FprofileImg%2Fb1f064e7-c886-49d6-bb1d-acbb1e6ceb39.jpg",
+      "keywords": ["에스파"]
     },
     {
       "id": 60,
@@ -667,7 +707,8 @@
       "version": 1,
       "group": true,
       "image": "/images/sm/exo_v1.png",
-      "profile": "https://i.namu.wiki/i/JDOrU___LO9kuYsuJgviVG8zY9qxAzBK269fYAuJ7Ao2cn1lqoyMXmt1ttNJwZfBIPc_xtL2RrJFcfK7L3kBg17BKXU812TeRwOUaCEgMOcWExx5xl3chsM3ZEYoSLq8WhrEfyhSF_pZO3A_Xt5mhw.webp"
+      "profile": "https://i.namu.wiki/i/JDOrU___LO9kuYsuJgviVG8zY9qxAzBK269fYAuJ7Ao2cn1lqoyMXmt1ttNJwZfBIPc_xtL2RrJFcfK7L3kBg17BKXU812TeRwOUaCEgMOcWExx5xl3chsM3ZEYoSLq8WhrEfyhSF_pZO3A_Xt5mhw.webp",
+      "keywords": ["엑소"]
     },
     {
       "id": 62,
@@ -700,7 +741,8 @@
       "version": 1,
       "group": true,
       "image": "/images/sm/nct.png",
-      "profile": "https://i.namu.wiki/i/gXh2XuWcAZxQrvmCzrUjKYdsuk28I6vkkEA_PQlDU751Ik1S4xUIS7MR-Ge-lu2BRdJrP5psH8aEieAOuHQOk7YnlEdGEHe46KMbWJwZHD217hYKcUD1eWTDySmAVOVIA8xrsFYEk_XeltL7RFCyUw.webp"
+      "profile": "https://i.namu.wiki/i/gXh2XuWcAZxQrvmCzrUjKYdsuk28I6vkkEA_PQlDU751Ik1S4xUIS7MR-Ge-lu2BRdJrP5psH8aEieAOuHQOk7YnlEdGEHe46KMbWJwZHD217hYKcUD1eWTDySmAVOVIA8xrsFYEk_XeltL7RFCyUw.webp",
+      "keywords": ["엔씨티"]
     },
     {
       "id": 65,
@@ -711,7 +753,8 @@
       "version": 0,
       "group": true,
       "image": "/images/sm/nct127.png",
-      "profile": "https://search.pstatic.net/common?type=a&size=3000&quality=100&direct=true&src=http%3A%2F%2Fsstatic.naver.net%2Fpeople%2FprofileImg%2F2460654f-cd44-44f2-8585-bc147d2e1bcc.jpg"
+      "profile": "https://search.pstatic.net/common?type=a&size=3000&quality=100&direct=true&src=http%3A%2F%2Fsstatic.naver.net%2Fpeople%2FprofileImg%2F2460654f-cd44-44f2-8585-bc147d2e1bcc.jpg",
+      "keywords": ["엔씨티", "엔127"]
     },
     {
       "id": 66,
@@ -722,7 +765,8 @@
       "version": 0,
       "group": true,
       "image": "/images/sm/nctdream.png",
-      "profile": "https://search.pstatic.net/common?type=a&size=3000&quality=100&direct=true&src=http%3A%2F%2Fsstatic.naver.net%2Fpeople%2FprofileImg%2Fa1c08c81-3de6-4497-88bb-d5ad7fe2fd57.jpg"
+      "profile": "https://search.pstatic.net/common?type=a&size=3000&quality=100&direct=true&src=http%3A%2F%2Fsstatic.naver.net%2Fpeople%2FprofileImg%2Fa1c08c81-3de6-4497-88bb-d5ad7fe2fd57.jpg",
+      "keywords": ["엔씨티", "드림", "엔드림"]
     },
     {
       "id": 67,
@@ -733,7 +777,8 @@
       "version": 0,
       "group": true,
       "image": "/images/sm/nctwish.png",
-      "profile": "https://search.pstatic.net/common?type=a&size=3000&quality=100&direct=true&src=http%3A%2F%2Fsstatic.naver.net%2Fpeople%2FprofileImg%2F242e2280-5cac-41fa-a52a-9d0edfa1950f.jpg"
+      "profile": "https://search.pstatic.net/common?type=a&size=3000&quality=100&direct=true&src=http%3A%2F%2Fsstatic.naver.net%2Fpeople%2FprofileImg%2F242e2280-5cac-41fa-a52a-9d0edfa1950f.jpg",
+      "keywords": ["엔씨티", "위시", "엔위시"]
     },
     {
       "id": 68,
@@ -744,7 +789,8 @@
       "version": 1,
       "group": true,
       "image": "/images/sm/wayv_v1.jpg",
-      "profile": "https://search.pstatic.net/common?type=a&size=3000&quality=100&direct=true&src=http%3A%2F%2Fsstatic.naver.net%2Fpeople%2FprofileImg%2Fb57b8aaa-feac-4f13-b9f1-dda48ead9cf9.jpg"
+      "profile": "https://search.pstatic.net/common?type=a&size=3000&quality=100&direct=true&src=http%3A%2F%2Fsstatic.naver.net%2Fpeople%2FprofileImg%2Fb57b8aaa-feac-4f13-b9f1-dda48ead9cf9.jpg",
+      "keywords": ["웨이션브이", "웨이션"]
     },
     {
       "id": 69,
@@ -761,12 +807,13 @@
       "id": 70,
       "artist": "MEOVV",
       "name": "",
-      "agency": "YG",
+      "agency": "THEBLACKLABEL",
       "tag": "YG",
       "version": 0,
       "group": true,
       "image": "/images/yg/meovv.png",
-      "profile": "https://search.pstatic.net/common?type=a&size=3000&quality=100&direct=true&src=http%3A%2F%2Fsstatic.naver.net%2Fpeople%2FprofileImg%2F1daecfa2-b2e4-4005-9658-ef7a0b010e8c.jpg"
+      "profile": "https://search.pstatic.net/common?type=a&size=3000&quality=100&direct=true&src=http%3A%2F%2Fsstatic.naver.net%2Fpeople%2FprofileImg%2F1daecfa2-b2e4-4005-9658-ef7a0b010e8c.jpg",
+      "keywords": ["미야오"]
     },
     {
       "id": 71,
@@ -777,7 +824,8 @@
       "version": 0,
       "group": true,
       "image": "/images/yg/babymonster.jpg",
-      "profile": "https://search.pstatic.net/common?type=a&size=3000&quality=100&direct=true&src=http%3A%2F%2Fsstatic.naver.net%2Fpeople%2FprofileImg%2F1271ce68-5a74-4fce-8f2e-1f9ff1ad98c3.jpg"
+      "profile": "https://search.pstatic.net/common?type=a&size=3000&quality=100&direct=true&src=http%3A%2F%2Fsstatic.naver.net%2Fpeople%2FprofileImg%2F1271ce68-5a74-4fce-8f2e-1f9ff1ad98c3.jpg",
+      "keywords": ["베이비몬스터", "베몬"]
     },
     {
       "id": 72,
@@ -788,7 +836,8 @@
       "version": 0,
       "group": true,
       "image": "/images/yg/blackpink.png",
-      "profile": "https://i.namu.wiki/i/U_iLMKgVPmSz2Lj3kJy0Epu182s43UmytV4m3haPk3ForB-kVoCvbMa_eEId1Z9RMI5DDwxD7JlcErItLI8ZNsd7NnU150q1ZK_POiAp1zfq-x2Q0kW9_w3xEX6z6m_2dOXGS5b30WptxGJEHY2SkA.webp"
+      "profile": "https://i.namu.wiki/i/U_iLMKgVPmSz2Lj3kJy0Epu182s43UmytV4m3haPk3ForB-kVoCvbMa_eEId1Z9RMI5DDwxD7JlcErItLI8ZNsd7NnU150q1ZK_POiAp1zfq-x2Q0kW9_w3xEX6z6m_2dOXGS5b30WptxGJEHY2SkA.webp",
+      "keywords": ["블랙핑크", "블핑"]
     },
     {
       "id": 73,
@@ -799,7 +848,8 @@
       "version": 1,
       "group": true,
       "image": "/images/yg/winner_v1.jpg",
-      "profile": "https://i.namu.wiki/i/7dZYTFn2cZ9WVJah1fesLHR9e0Qf5OChWxW2W2Ng1JHlLLNKqdLmXI1XbZAs_TGtxn4YeOk6BMeswcm1RQxTfvD0FsOsFFEHuLgthTbUpBXiERH2DMW3o0GKkldyzcK2WHsY6w7zpMrc6G_Se0KW-A.webp"
+      "profile": "https://i.namu.wiki/i/7dZYTFn2cZ9WVJah1fesLHR9e0Qf5OChWxW2W2Ng1JHlLLNKqdLmXI1XbZAs_TGtxn4YeOk6BMeswcm1RQxTfvD0FsOsFFEHuLgthTbUpBXiERH2DMW3o0GKkldyzcK2WHsY6w7zpMrc6G_Se0KW-A.webp",
+      "keywords": ["위너"]
     },
     {
       "id": 74,
@@ -816,12 +866,13 @@
       "id": 75,
       "artist": "G-DRAGON",
       "name": "데이지봉",
-      "agency": "YG",
+      "agency": "갤럭시코퍼레이션",
       "tag": "YG",
       "version": 0,
       "group": false,
       "image": "/images/yg/gdragon.jpg",
-      "profile": "https://search.pstatic.net/common?type=b&size=3000&quality=100&direct=true&src=http%3A%2F%2Fsstatic.naver.net%2Fpeople%2FprofileImg%2Fbea07c91-3123-4ece-b485-555773d81891.jpg"
+      "profile": "https://search.pstatic.net/common?type=b&size=3000&quality=100&direct=true&src=http%3A%2F%2Fsstatic.naver.net%2Fpeople%2FprofileImg%2Fbea07c91-3123-4ece-b485-555773d81891.jpg",
+      "keywords": ["지디", "지드래곤"]
     },
     {
       "id": 76,
@@ -832,95 +883,104 @@
       "version": 0,
       "group": true,
       "image": "/images/yg/treasure.png",
-      "profile": "https://search.pstatic.net/common?type=a&size=3000&quality=100&direct=true&src=http%3A%2F%2Fsstatic.naver.net%2Fpeople%2FprofileImg%2Fcfd2eca3-6533-43b0-9201-784542198a68.jpg"
+      "profile": "https://search.pstatic.net/common?type=a&size=3000&quality=100&direct=true&src=http%3A%2F%2Fsstatic.naver.net%2Fpeople%2FprofileImg%2Fcfd2eca3-6533-43b0-9201-784542198a68.jpg",
+      "keywords": ["트레저"]
     },
     {
       "id": 77,
       "artist": "THE BOYZ",
       "name": "",
-      "agency": "",
+      "agency": "원헌드레드레이블",
       "tag": "",
       "version": 0,
       "group": true,
       "image": "/images/theboyz.webp",
-      "profile": "https://search.pstatic.net/common?type=a&size=3000&quality=100&direct=true&src=http%3A%2F%2Fsstatic.naver.net%2Fpeople%2FprofileImg%2F7defbf22-02f7-4107-9ea9-39a9a8cebca2.jpg"
+      "profile": "https://search.pstatic.net/common?type=a&size=3000&quality=100&direct=true&src=http%3A%2F%2Fsstatic.naver.net%2Fpeople%2FprofileImg%2F7defbf22-02f7-4107-9ea9-39a9a8cebca2.jpg",
+      "keywords": ["더보이즈"]
     },
     {
       "id": 78,
       "artist": "Dreamcatcher",
       "name": "몽몽이",
-      "agency": "",
+      "agency": "드림캐쳐컴퍼니",
       "tag": "",
       "version": 0,
       "group": true,
       "image": "/images/dreamcatcher.jpg",
-      "profile": "https://i.namu.wiki/i/IG-4cJ-Q9n62Hy-g9ZIdSYIB7daIu5Qrtt_7-LmozCyZuwKXr8RFb2JQpxFX_Upf81X3olvtLRXfLozsZXf0wZH3Rt9nC2B8s1ylc7bP7fi4x2xXu20ime-cDr67ugW7bNgzpAre460oPqplqRW96Q.webp"
+      "profile": "https://i.namu.wiki/i/IG-4cJ-Q9n62Hy-g9ZIdSYIB7daIu5Qrtt_7-LmozCyZuwKXr8RFb2JQpxFX_Upf81X3olvtLRXfLozsZXf0wZH3Rt9nC2B8s1ylc7bP7fi4x2xXu20ime-cDr67ugW7bNgzpAre460oPqplqRW96Q.webp",
+      "keywords": ["드림캐쳐"]
     },
     {
       "id": 79,
       "artist": "LIGHTSUM",
       "name": "",
-      "agency": "",
+      "agency": "큐브엔터테인먼트",
       "tag": "",
       "version": 0,
       "group": true,
       "image": "/images/lightsum.png",
-      "profile": "https://search.pstatic.net/common?type=a&size=3000&quality=100&direct=true&src=http%3A%2F%2Fsstatic.naver.net%2Fpeople%2FprofileImg%2F8107006f-488b-47d0-a79f-81651e26b520.jpg"
+      "profile": "https://search.pstatic.net/common?type=a&size=3000&quality=100&direct=true&src=http%3A%2F%2Fsstatic.naver.net%2Fpeople%2FprofileImg%2F8107006f-488b-47d0-a79f-81651e26b520.jpg",
+      "keywords": ["라잇썸"]
     },
     {
       "id": 80,
       "artist": "Loossemble",
       "name": "",
-      "agency": "",
+      "agency": "CTDENM",
       "tag": "",
       "version": 0,
       "group": true,
       "image": "/images/loossemble.webp",
-      "profile": "https://search.pstatic.net/common?type=a&size=3000&quality=100&direct=true&src=http%3A%2F%2Fsstatic.naver.net%2Fpeople%2FprofileImg%2Fe6877686-a599-447e-b2a4-5bb31f6c9e5f.jpg"
+      "profile": "https://search.pstatic.net/common?type=a&size=3000&quality=100&direct=true&src=http%3A%2F%2Fsstatic.naver.net%2Fpeople%2FprofileImg%2F0325354b-fe64-4bde-957b-ac53128582c0.jpg",
+      "keywords": ["루셈블"]
     },
     {
       "id": 81,
       "artist": "Libelante",
       "name": "",
-      "agency": "",
+      "agency": "EMK엔터테인먼트",
       "tag": "",
       "version": 0,
       "group": true,
       "image": "/images/libelante.jpg",
-      "profile": "https://search.pstatic.net/common?type=b&size=3000&quality=100&direct=true&src=http%3A%2F%2Fsstatic.naver.net%2Fpeople%2FprofileImg%2F788ea663-5c77-49be-bccb-920a9bb16f7c.jpg"
+      "profile": "https://search.pstatic.net/common?type=b&size=3000&quality=100&direct=true&src=http%3A%2F%2Fsstatic.naver.net%2Fpeople%2FprofileImg%2F788ea663-5c77-49be-bccb-920a9bb16f7c.jpg",
+      "keywords": ["리베란테"]
     },
     {
       "id": 82,
       "artist": "RESCENE",
       "name": "",
-      "agency": "",
+      "agency": "더뮤즈엔터테인먼트",
       "tag": "",
       "version": 0,
       "group": true,
       "image": "/images/rescene.jpg",
-      "profile": "https://i.namu.wiki/i/PBhoLARqsfw1bIXpMTUqGyAC9hNwD3R2APx1rSjI4mlN59v4ZdG72J94nNp8A4rby54AYXOw5pY9F5fQNWtAP_BmvrYsALWXiE2MiNI23GnTb9dEGliD0V1RyzYU9-0IkBsqz0zBtYhDRPCkNyJMtw.webp"
+      "profile": "https://i.namu.wiki/i/PBhoLARqsfw1bIXpMTUqGyAC9hNwD3R2APx1rSjI4mlN59v4ZdG72J94nNp8A4rby54AYXOw5pY9F5fQNWtAP_BmvrYsALWXiE2MiNI23GnTb9dEGliD0V1RyzYU9-0IkBsqz0zBtYhDRPCkNyJMtw.webp",
+      "keywords": ["리센느"]
     },
     {
       "id": 83,
       "artist": "MAMAMOO",
       "name": "무봉",
-      "agency": "",
+      "agency": "RBW",
       "tag": "",
       "version": 0,
       "group": true,
       "image": "/images/mamamoo.png",
-      "profile": "https://i.namu.wiki/i/4jnhK1qNl66hvb4tqMiHVTilPUZ6WrkNzGhWM0ur1QS0Q43AMeQqKJwlKbjPOasJVFxXCsW2SyTfp4dii6RTq6QLgMvblS8SQ9HrxzSC0rIrznZCo-hRB9WGn7IqQKI87VMI3_X8ueXqlX6TxYs73g.webp"
+      "profile": "https://i.namu.wiki/i/4jnhK1qNl66hvb4tqMiHVTilPUZ6WrkNzGhWM0ur1QS0Q43AMeQqKJwlKbjPOasJVFxXCsW2SyTfp4dii6RTq6QLgMvblS8SQ9HrxzSC0rIrznZCo-hRB9WGn7IqQKI87VMI3_X8ueXqlX6TxYs73g.webp",
+      "keywords": ["마마무"]
     },
     {
       "id": 84,
       "artist": "MOMOLAND",
       "name": "메리봉",
-      "agency": "",
+      "agency": "RBW",
       "tag": "",
       "version": 0,
       "group": true,
       "image": "/images/momoland.png",
-      "profile": "https://i.namu.wiki/i/Lf2Y_9qlaw7ADWeL6nXCH3wgNd5THEJNGWcy07IO27M-VLFbsTLtdmpW7E2b3N4lZuIUshoUn4qkSSX5eNl2go_M1HHO0g_5BxhpdtywuxmpKRoKUCWlpEJt8lYB3N5eX3B0fXpmY6TbjAyVrQAjEQ.webp"
+      "profile": "https://i.namu.wiki/i/Lf2Y_9qlaw7ADWeL6nXCH3wgNd5THEJNGWcy07IO27M-VLFbsTLtdmpW7E2b3N4lZuIUshoUn4qkSSX5eNl2go_M1HHO0g_5BxhpdtywuxmpKRoKUCWlpEJt8lYB3N5eX3B0fXpmY6TbjAyVrQAjEQ.webp",
+      "keywords": ["모모랜드"]
     },
     {
       "id": 85,
@@ -931,91 +991,99 @@
       "version": 0,
       "group": true,
       "image": "/images/vanner.jpg",
-      "profile": "https://i.namu.wiki/i/3U5yw38oF2ga_42ZHpIn9Il-iubEdIhU8FZuUE3ccw-YZXQi44khangxK0E0r2xO6wDurKbuzD7eq-Kdw5DQEjwV0yPr_eXK_5ad9PJYs6LyrFvWTQpWVtZ7KPT3wHOp3BZOEiFudmVuHjNv2c1dxw.webp"
+      "profile": "https://i.namu.wiki/i/3U5yw38oF2ga_42ZHpIn9Il-iubEdIhU8FZuUE3ccw-YZXQi44khangxK0E0r2xO6wDurKbuzD7eq-Kdw5DQEjwV0yPr_eXK_5ad9PJYs6LyrFvWTQpWVtZ7KPT3wHOp3BZOEiFudmVuHjNv2c1dxw.webp",
+      "keywords": ["배너"]
     },
     {
       "id": 86,
       "artist": "Brave Girls",
       "name": "쁘봉",
-      "agency": "",
+      "agency": "브레이브엔터테인먼트",
       "tag": "",
       "version": 0,
       "group": true,
       "image": "/images/bravegirls.jpg",
-      "profile": "https://i.namu.wiki/i/Odlqzs-zjp_4KX6W9j_ns7jc8rV3aXmLyHysHwDacAyI5tVVny7Jibxl8R6iCL-GRZiR-t4OS_BJ7y4lOPIXt5ytYsnrnxOrvOHRP_ZUCRiq7WI57OY01K2BdqOU3G--uFyW35wvuok2IpBHcPiodQ.webp"
+      "profile": "https://i.namu.wiki/i/Odlqzs-zjp_4KX6W9j_ns7jc8rV3aXmLyHysHwDacAyI5tVVny7Jibxl8R6iCL-GRZiR-t4OS_BJ7y4lOPIXt5ytYsnrnxOrvOHRP_ZUCRiq7WI57OY01K2BdqOU3G--uFyW35wvuok2IpBHcPiodQ.webp",
+      "keywords": ["브레이브 걸스", "브브걸"]
     },
     {
       "id": 87,
       "artist": "Block B",
       "name": "꿀봉",
-      "agency": "",
+      "agency": "KQ 엔터테인먼트",
       "tag": "",
       "version": 0,
       "group": true,
       "image": "/images/blockb.jpg",
-      "profile": "https://i.namu.wiki/i/5_B47x_Bi8_xAvz-FmT2S1IWM3HQv6Z7E6x81bgl896NOAs8CeQeawynZC3ygQ843Iw98uEMyC_UB_8Ps7MsM9quG-zQXPwNNefw2fMCDs-ud0SHBh-wf2vtcyoHsPnyefOBwtoBhe-JogCbW0a3dw.webp"
+      "profile": "https://i.namu.wiki/i/5_B47x_Bi8_xAvz-FmT2S1IWM3HQv6Z7E6x81bgl896NOAs8CeQeawynZC3ygQ843Iw98uEMyC_UB_8Ps7MsM9quG-zQXPwNNefw2fMCDs-ud0SHBh-wf2vtcyoHsPnyefOBwtoBhe-JogCbW0a3dw.webp",
+      "keywords": ["블락비"]
     },
     {
       "id": 88,
       "artist": "VIVIZ",
       "name": "나비봉",
-      "agency": "",
+      "agency": "빅플래닛메이드엔터",
       "tag": "",
       "version": 0,
       "group": true,
       "image": "/images/viviz.jpg",
-      "profile": "https://search.pstatic.net/common?type=a&size=3000&quality=100&direct=true&src=http%3A%2F%2Fsstatic.naver.net%2Fpeople%2FprofileImg%2F38ca5dc8-02e0-4a9b-aaf9-71578b4d2e54.jpg"
+      "profile": "https://search.pstatic.net/common?type=a&size=3000&quality=100&direct=true&src=http%3A%2F%2Fsstatic.naver.net%2Fpeople%2FprofileImg%2F38ca5dc8-02e0-4a9b-aaf9-71578b4d2e54.jpg",
+      "keywords": ["비비지"]
     },
     {
       "id": 89,
       "artist": "BTOB",
       "name": "나팔봉",
-      "agency": "",
+      "agency": "비투비 컴퍼니",
       "tag": "",
       "version": 0,
       "group": true,
       "image": "/images/btob.jpg",
-      "profile": "https://i.namu.wiki/i/g9XypLppb5HlKUdt-ZtOt2LSHSLHdP8sFGYZ0a3qHqRr5EiQ5BqBnd7eQPtll0-9DKFNxoiVxaXtFfSJ652Tz4v1ZO_Zq4KZ_zaKbtC4RR4bRFz30v45yWP7DP_Eh7EMr99W0kO4sF3LhbliKVshLA.webp"
+      "profile": "https://i.namu.wiki/i/g9XypLppb5HlKUdt-ZtOt2LSHSLHdP8sFGYZ0a3qHqRr5EiQ5BqBnd7eQPtll0-9DKFNxoiVxaXtFfSJ652Tz4v1ZO_Zq4KZ_zaKbtC4RR4bRFz30v45yWP7DP_Eh7EMr99W0kO4sF3LhbliKVshLA.webp",
+      "keywords": ["비투비"]
     },
     {
       "id": 90,
       "artist": "Billlie",
       "name": "빌라잇",
-      "agency": "",
-      "tag": "",
+      "agency": "미스틱스토리",
+      "tag": "SM",
       "version": 0,
       "group": true,
       "image": "/images/billlie.jpg",
-      "profile": "https://search.pstatic.net/common?type=a&size=3000&quality=100&direct=true&src=http%3A%2F%2Fsstatic.naver.net%2Fpeople%2FprofileImg%2F869a78b7-2af1-47c0-8d01-2d9fb3d01119.jpg"
+      "profile": "https://search.pstatic.net/common?type=a&size=3000&quality=100&direct=true&src=http%3A%2F%2Fsstatic.naver.net%2Fpeople%2FprofileImg%2F0325354b-fe64-4bde-957b-ac53128582c0.jpg",
+      "keywords": ["빌리"]
     },
     {
       "id": 91,
       "artist": "ARTMS",
       "name": "화살봉",
-      "agency": "",
+      "agency": "모드하우스",
       "tag": "",
       "version": 0,
       "group": true,
       "image": "/images/artms.png",
-      "profile": "https://search.pstatic.net/common?type=b&size=3000&quality=100&direct=true&src=http%3A%2F%2Fsstatic.naver.net%2Fpeople%2FprofileImg%2F1cae04db-2fc9-4a0b-9bec-ee4ddb190aea.jpg"
+      "profile": "https://search.pstatic.net/common?type=b&size=3000&quality=100&direct=true&src=http%3A%2F%2Fsstatic.naver.net%2Fpeople%2FprofileImg%2F1cae04db-2fc9-4a0b-9bec-ee4ddb190aea.jpg",
+      "keywords": ["아르테미스"]
     },
     {
       "id": 92,
       "artist": "iKON",
       "name": "콘배트",
-      "agency": "",
-      "tag": "",
+      "agency": "143엔터테인먼트",
+      "tag": "YG",
       "version": 1,
       "group": true,
       "image": "/images/ikon_v1.png",
-      "profile": "https://i.namu.wiki/i/de6RPLCRYWAWAP9Nx4xR6fHoytkWhT7KNVexETWSa-3DieLICqQQzfNgDHHtDuo6gF8MJftukuxoqN2YOw5JFEKLkDyY2I5JqVD-FaiP5mIh8GS_Bz92RU5rllShgSlSJpqTcgIokjIZuUJOrS82uQ.webp"
+      "profile": "https://i.namu.wiki/i/de6RPLCRYWAWAP9Nx4xR6fHoytkWhT7KNVexETWSa-3DieLICqQQzfNgDHHtDuo6gF8MJftukuxoqN2YOw5JFEKLkDyY2I5JqVD-FaiP5mIh8GS_Bz92RU5rllShgSlSJpqTcgIokjIZuUJOrS82uQ.webp",
+      "keywords": ["아이콘"]
     },
     {
       "id": 93,
       "artist": "iKON",
       "name": "콘배트",
-      "agency": "",
-      "tag": "",
+      "agency": "143엔터테인먼트",
+      "tag": "YG",
       "version": 2,
       "group": true,
       "image": "/images/ikon_v2.jpg",
@@ -1025,78 +1093,85 @@
       "id": 94,
       "artist": "A.C.E",
       "name": "초이스틱",
-      "agency": "",
+      "agency": "비트인터렉티브",
       "tag": "",
       "version": 0,
       "group": true,
       "image": "/images/ace.jpg",
-      "profile": "https://search.pstatic.net/common?type=a&size=3000&quality=100&direct=true&src=http%3A%2F%2Fsstatic.naver.net%2Fpeople%2FprofileImg%2F96fd710b-1269-4aff-8967-1d850a36d6f8.jpg"
+      "profile": "https://search.pstatic.net/common?type=a&size=3000&quality=100&direct=true&src=http%3A%2F%2Fsstatic.naver.net%2Fpeople%2FprofileImg%2F96fd710b-1269-4aff-8967-1d850a36d6f8.jpg",
+      "keywords": ["에이스"]
     },
     {
       "id": 95,
       "artist": "N.Flying",
       "name": "엔피봉",
-      "agency": "",
+      "agency": "FNC엔터테인먼트",
       "tag": "",
       "version": 0,
       "group": true,
       "image": "/images/nflying.jpg",
-      "profile": "https://search.pstatic.net/common?type=a&size=3000&quality=100&direct=true&src=http%3A%2F%2Fsstatic.naver.net%2Fpeople%2FprofileImg%2F541a0add-cbf2-4086-8e65-a1ff6e6d8086.jpg"
+      "profile": "https://search.pstatic.net/common?type=a&size=3000&quality=100&direct=true&src=http%3A%2F%2Fsstatic.naver.net%2Fpeople%2FprofileImg%2F541a0add-cbf2-4086-8e65-a1ff6e6d8086.jpg",
+      "keywords": ["엔플라잉"]
     },
     {
       "id": 96,
       "artist": "I-DLE",
       "name": "네버봉",
-      "agency": "",
+      "agency": "큐브엔터테인먼트",
       "tag": "",
       "version": 0,
       "group": true,
       "image": "/images/gidle.jpg",
-      "profile": "https://search.pstatic.net/common?type=a&size=3000&quality=100&direct=true&src=http%3A%2F%2Fsstatic.naver.net%2Fpeople%2FprofileImg%2F14e8b273-ac86-481c-8b3f-f02ae7bb2886.jpg"
+      "profile": "https://search.pstatic.net/common?type=a&size=3000&quality=100&direct=true&src=http%3A%2F%2Fsstatic.naver.net%2Fpeople%2FprofileImg%2F14e8b273-ac86-481c-8b3f-f02ae7bb2886.jpg",
+      "keywords": ["여자아이들", "아이들"]
     },
     {
       "id": 97,
       "artist": "OH MY GIRL",
       "name": "디어마이봉",
-      "agency": "",
+      "agency": "WM엔터테인먼트",
       "tag": "",
       "version": 0,
       "group": true,
       "image": "/images/ohmygirl.jpg",
-      "profile": "https://search.pstatic.net/common?type=a&size=3000&quality=100&direct=true&src=http%3A%2F%2Fsstatic.naver.net%2Fpeople%2FprofileImg%2F85ee5535-4786-464a-ab09-5776a1a4f63f.jpg"
+      "profile": "https://search.pstatic.net/common?type=a&size=3000&quality=100&direct=true&src=http%3A%2F%2Fsstatic.naver.net%2Fpeople%2FprofileImg%2F85ee5535-4786-464a-ab09-5776a1a4f63f.jpg",
+      "keywords": ["오마이걸", "옴걸"]
     },
     {
       "id": 98,
       "artist": "ONF",
       "name": "워프봉",
-      "agency": "",
+      "agency": "WM엔터테인먼트",
       "tag": "",
       "version": 0,
       "group": true,
       "image": "/images/onf.webp",
-      "profile": "https://search.pstatic.net/common?type=a&size=3000&quality=100&direct=true&src=http%3A%2F%2Fsstatic.naver.net%2Fpeople%2FprofileImg%2F70d97077-5717-4160-89e8-13a98c365812.jpg"
+      "profile": "https://search.pstatic.net/common?type=a&size=3000&quality=100&direct=true&src=http%3A%2F%2Fsstatic.naver.net%2Fpeople%2FprofileImg%2F70d97077-5717-4160-89e8-13a98c365812.jpg",
+      "keywords": ["온앤오프", "온옾"]
     },
     {
       "id": 99,
       "artist": "WEi",
       "name": "",
-      "agency": "",
+      "agency": "위엔터테인먼트",
       "tag": "",
       "version": 0,
       "group": true,
       "image": "/images/wei.webp",
-      "profile": "https://search.pstatic.net/common?type=a&size=3000&quality=100&direct=true&src=http%3A%2F%2Fsstatic.naver.net%2Fpeople%2FprofileImg%2Ft%2F91d82d07-d3ed-4899-b302-780c3bde6445.jpg"
+      "profile": "https://search.pstatic.net/common?type=a&size=3000&quality=100&direct=true&src=http%3A%2F%2Fsstatic.naver.net%2Fpeople%2FprofileImg%2F0325354b-fe64-4bde-957b-ac53128582c0.jpg",
+      "keywords": ["위아이"]
     },
     {
       "id": 100,
       "artist": "Weeekly",
       "name": "위클리봉",
-      "agency": "",
+      "agency": "IST엔터테인먼트",
       "tag": "",
       "version": 0,
       "group": true,
       "image": "/images/weeekly.jpg",
-      "profile": "https://search.pstatic.net/common?type=a&size=3000&quality=100&direct=true&src=http%3A%2F%2Fsstatic.naver.net%2Fpeople%2FprofileImg%2F59a76e0b-fb7c-4e1d-9de8-92e86e2c0777.jpg"
+      "profile": "https://i.namu.wiki/i/_rI4LoxSJOtBrbuOgpn39bNgOGYSN-Gjc3AFbIowKltH-pFrFjG7dgaXQGc5pn6NAC1vwtAd4jnDlIPbw2_29FABO0gQiQR6YSr7X8gtO0u-92TOsNe6Yos4wHHLk3Jq0IhBrlyjtvpX7tm751d4PQ.webp",
+      "keywords": ["위클리"]
     },
     {
       "id": 101,
@@ -1107,7 +1182,8 @@
       "version": 1,
       "group": true,
       "image": "/images/got7_v1.webp",
-      "profile": "https://search.pstatic.net/common?type=a&size=3000&quality=100&direct=true&src=http%3A%2F%2Fsstatic.naver.net%2Fpeople%2FprofileImg%2F92912129-20e1-44e1-a23b-928f30d9db6a.jpg"
+      "profile": "https://search.pstatic.net/common?type=a&size=3000&quality=100&direct=true&src=http%3A%2F%2Fsstatic.naver.net%2Fpeople%2FprofileImg%2F92912129-20e1-44e1-a23b-928f30d9db6a.jpg",
+      "keywords": ["갓세븐"]
     },
     {
       "id": 102,
@@ -1135,18 +1211,19 @@
       "id": 104,
       "artist": "INFINITE",
       "name": "여봉",
-      "agency": "",
+      "agency": "인피니트컴퍼니",
       "tag": "",
       "version": 1,
       "group": true,
       "image": "/images/infinite_v1.webp",
-      "profile": "https://search.pstatic.net/common?type=a&size=3000&quality=100&direct=true&src=http%3A%2F%2Fsstatic.naver.net%2Fpeople%2FprofileImg%2F92912129-20e1-44e1-a23b-928f30d9db6a.jpg"
+      "profile": "https://search.pstatic.net/common?type=a&size=3000&quality=100&direct=true&src=http%3A%2F%2Fsstatic.naver.net%2Fpeople%2FprofileImg%2F0325354b-fe64-4bde-957b-ac53128582c0.jpg",
+      "keywords": ["인피니트", "인피", "잉피"]
     },
     {
       "id": 105,
       "artist": "INFINITE",
       "name": "여봉",
-      "agency": "",
+      "agency": "인피니트컴퍼니",
       "tag": "",
       "version": 2,
       "group": true,
@@ -1157,7 +1234,7 @@
       "id": 106,
       "artist": "INFINITE",
       "name": "여봉",
-      "agency": "",
+      "agency": "인피니트컴퍼니",
       "tag": "",
       "version": 3,
       "group": true,
@@ -1168,95 +1245,91 @@
       "id": 107,
       "artist": "KISS OF LIFE",
       "name": "삐용봉",
-      "agency": "",
+      "agency": "S2엔터테인먼트",
       "tag": "",
       "version": 0,
       "group": true,
       "image": "/images/kissoflife.jpg",
-      "profile": "https://i.namu.wiki/i/R_rHsrQRH6ohkqqjAL3MnfI2SnFcg4r2JihDV7_gGFXb2IGigwY0BNjzCCP5JYtJXgrVR9Bbw_KG2PvEFjNp6I6h5dNVGDBIWm0vZjUbsyo9qwM--U6iwC8SvwkCN3IbCpPqaMZcu8mgFWTcuRQBkA.webp"
+      "profile": "https://i.namu.wiki/i/R_rHsrQRH6ohkqqjAL3MnfI2SnFcg4r2JihDV7_gGFXb2IGigwY0BNjzCCP5JYtJXgrVR9Bbw_KG2PvEFjNp6I6h5dNVGDBIWm0vZjUbsyo9qwM--U6iwC8SvwkCN3IbCpPqaMZcu8mgFWTcuRQBkA.webp",
+      "keywords": ["키스오브라이프", "키오프"]
     },
     {
       "id": 108,
       "artist": "tripleS",
       "name": "heartS",
-      "agency": "",
+      "agency": "모드하우스",
       "tag": "",
       "version": 0,
       "group": true,
       "image": "/images/triples.webp",
-      "profile": "https://cdn.prod.website-files.com/662986e5673893e8242aacd0/67fcc89ae33cc60c6e5624fc_image102.jpeg"
+      "profile": "https://cdn.prod.website-files.com/662986e5673893e8242aacd0/67fcc89ae33cc60c6e5624fc_image102.jpeg",
+      "keywords": ["트리플에스", "트에"]
     },
     {
       "id": 109,
       "artist": "PENTAGON",
       "name": "유니봉",
-      "agency": "",
+      "agency": "큐브엔터테인먼트",
       "tag": "",
       "version": 0,
       "group": true,
       "image": "/images/pentagon.png",
-      "profile": "https://i.namu.wiki/i/3KEnWhkDwrswHlVJNiiVYGQgDB0FJyUfLLWKpPBXxUaUU--WCuEp1sG3ztN38NJvmzY53vLmr9X2_N6F1OSSRU3SVv-N6d8xDg84jeFpplzotya5GQuCSCYnoJz6wJNIsmVq1rEgHPuaXYiNZDMalA.webp"
+      "profile": "https://i.namu.wiki/i/3KEnWhkDwrswHlVJNiiVYGQgDB0FJyUfLLWKpPBXxUaUU--WCuEp1sG3ztN38NJvmzY53vLmr9X2_N6F1OSSRU3SVv-N6d8xDg84jeFpplzotya5GQuCSCYnoJz6wJNIsmVq1rEgHPuaXYiNZDMalA.webp",
+      "keywords": ["펜타곤"]
     },
     {
       "id": 110,
-      "artist": "fromis_9",
-      "name": "플로봉",
-      "agency": "",
-      "tag": "",
-      "version": 0,
-      "group": true,
-      "image": "/images/fromis9.webp",
-      "profile": "https://search.pstatic.net/common?type=b&size=3000&quality=100&direct=true&src=http%3A%2F%2Fsstatic.naver.net%2Fpeople%2FprofileImg%2Fbb33ee3a-6092-4782-83ef-dce70537701d.jpg"
-    },
-    {
-      "id": 111,
       "artist": "PLAVE",
       "name": "아뵹",
-      "agency": "",
+      "agency": "VLAST",
       "tag": "",
       "version": 0,
       "group": true,
       "image": "/images/plave.png",
-      "profile": "https://i.namu.wiki/i/afk5G_7SWQ3AMqTKRitTy6SVC_eHV0UlMt-BTJFrUHvnqWovtTI_AkhlDdMwJXdXuyktVPT0KGXLdozpOnOQBg64l-Om57Ceilc15JSJ0FAzV92lr_SHOzesBhgt4wNE1ldGvvgpYHpGN12uYbJQ4A.webp"
+      "profile": "https://i.namu.wiki/i/afk5G_7SWQ3AMqTKRitTy6SVC_eHV0UlMt-BTJFrUHvnqWovtTI_AkhlDdMwJXdXuyktVPT0KGXLdozpOnOQBg64l-Om57Ceilc15JSJ0FAzV92lr_SHOzesBhgt4wNE1ldGvvgpYHpGN12uYbJQ4A.webp",
+      "keywords": ["플레이브"]
     },
     {
-      "id": 112,
+      "id": 111,
       "artist": "Highlight",
       "name": "할라봉",
-      "agency": "",
+      "agency": "어라운드어스엔터테인먼트",
       "tag": "",
       "version": 0,
       "group": true,
       "image": "/images/highlight.webp",
-      "profile": "https://search.pstatic.net/common?type=a&size=3000&quality=100&direct=true&src=http%3A%2F%2Fsstatic.naver.net%2Fpeople%2FprofileImg%2F11665a22-4c85-4298-9ea5-d9d3ea422cc6.jpg"
+      "profile": "https://search.pstatic.net/common?type=a&size=3000&quality=100&direct=true&src=http%3A%2F%2Fsstatic.naver.net%2Fpeople%2FprofileImg%2F11665a22-4c85-4298-9ea5-d9d3ea422cc6.jpg",
+      "keywords": ["하이라이트"]
     },
     {
-      "id": 113,
+      "id": 112,
       "artist": "H1-KEY",
       "name": "키키봉",
-      "agency": "",
+      "agency": "초이크리에이티브랩",
       "tag": "",
       "version": 0,
       "group": true,
       "image": "/images/h1key.jpg",
-      "profile": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/H1-KEY_%ED%95%98%EC%9D%B4%ED%82%A4_220708.png/500px-H1-KEY_%ED%95%98%EC%9D%B4%ED%82%A4_220708.png"
+      "profile": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/H1-KEY_%ED%95%98%EC%9D%B4%ED%82%A4_220708.png/500px-H1-KEY_%ED%95%98%EC%9D%B4%ED%82%A4_220708.png",
+      "keywords": ["하이키"]
+    },
+    {
+      "id": 113,
+      "artist": "ATEEZ",
+      "name": "라이티니",
+      "agency": "KQ 엔터테인먼트",
+      "tag": "",
+      "version": 0,
+      "group": true,
+      "image": "/images/ateez_v1.jpg",
+      "profile": "https://search.pstatic.net/common?type=b&size=3000&quality=100&direct=true&src=http%3A%2F%2Fsstatic.naver.net%2Fpeople%2FprofileImg%2F7b871b4a-d99b-4b3b-9012-79ba622eeb56.jpg",
+      "keywords": ["에이티즈"]
     },
     {
       "id": 114,
       "artist": "ATEEZ",
       "name": "라이티니",
-      "agency": "",
-      "tag": "",
-      "version": 0,
-      "group": true,
-      "image": "/images/ateez_v1.jpg",
-      "profile": "https://search.pstatic.net/common?type=b&size=3000&quality=100&direct=true&src=http%3A%2F%2Fsstatic.naver.net%2Fpeople%2FprofileImg%2F7b871b4a-d99b-4b3b-9012-79ba622eeb56.jpg"
-    },
-    {
-      "id": 115,
-      "artist": "ATEEZ",
-      "name": "라이티니",
-      "agency": "",
+      "agency": "KQ 엔터테인먼트",
       "tag": "",
       "version": 0,
       "group": true,
@@ -1264,88 +1337,95 @@
       "profile": "https://search.pstatic.net/common?type=b&size=3000&quality=100&direct=true&src=http%3A%2F%2Fsstatic.naver.net%2Fpeople%2FprofileImg%2F7b871b4a-d99b-4b3b-9012-79ba622eeb56.jpg"
     },
     {
-      "id": 116,
+      "id": 115,
       "artist": "YOUNG POSSE",
       "name": "테리봉",
-      "agency": "",
+      "agency": "DSP미디어 | 비츠엔터테인먼트",
       "tag": "",
       "version": 0,
       "group": true,
       "image": "/images/youngposse.png",
-      "profile": "https://i.namu.wiki/i/xlYsXNIebH83DH7ezvtldpzJYtFqbuLMEZ9RaYJjnGYxBDK6iIEuohNjmcXPmw1mMVp1GfITtzt-H3HN11gCCP53QoB8_0eJAf_mf-uaEinx8-b7gqJdz_hv5c1SyrFKygKzLiGNgwd7i42BYe9G6g.webp"
+      "profile": "https://i.namu.wiki/i/xlYsXNIebH83DH7ezvtldpzJYtFqbuLMEZ9RaYJjnGYxBDK6iIEuohNjmcXPmw1mMVp1GfITtzt-H3HN11gCCP53QoB8_0eJAf_mf-uaEinx8-b7gqJdz_hv5c1SyrFKygKzLiGNgwd7i42BYe9G6g.webp",
+      "keywords": ["영파씨"]
     },
     {
-      "id": 117,
+      "id": 116,
       "artist": "P1Harmony",
       "name": "피스봉",
-      "agency": "",
+      "agency": "FNC엔터테인먼트",
       "tag": "",
       "version": 0,
       "group": true,
       "image": "/images/p1harmony.png",
-      "profile": "https://i.namu.wiki/i/9nFiHX7ujmh6FdUqy6KLnYuH80cJ6pz--14meRtWT23sItsOciilYBgP8E9sbq_sCAGaJEIJTdYeVL3iTgLoXsCFbtnO9XWdPCuCKvH1bBaK_z3LKHUvW_O6jlw8kgMG789fd450ywKxUdkThrs1ew.webp"
+      "profile": "https://i.namu.wiki/i/9nFiHX7ujmh6FdUqy6KLnYuH80cJ6pz--14meRtWT23sItsOciilYBgP8E9sbq_sCAGaJEIJTdYeVL3iTgLoXsCFbtnO9XWdPCuCKvH1bBaK_z3LKHUvW_O6jlw8kgMG789fd450ywKxUdkThrs1ew.webp",
+      "keywords": ["피원하모니"]
     },
     {
-      "id": 118,
+      "id": 117,
       "artist": "DRIPPIN",
       "name": "꿈봉",
-      "agency": "",
+      "agency": "울림엔터테인먼트",
       "tag": "",
       "version": 0,
       "group": true,
       "image": "/images/drippin.webp",
-      "profile": "https://i.namu.wiki/i/2EBXoeF8V_qwZYOMxnvfBngO99srYAZFc-ASik-3ejr-x7MxvOVAxZnznGw6MDtPMkfJs2uoGFHqDFDrAp9aK1ISOSgMYUb5wX7qYXsCygu-9L2TVxzr-08HYNZKztZ2PgOhKSA1Iqw0PJVjmyNNeQ.webp"
+      "profile": "https://i.namu.wiki/i/2EBXoeF8V_qwZYOMxnvfBngO99srYAZFc-ASik-3ejr-x7MxvOVAxZnznGw6MDtPMkfJs2uoGFHqDFDrAp9aK1ISOSgMYUb5wX7qYXsCygu-9L2TVxzr-08HYNZKztZ2PgOhKSA1Iqw0PJVjmyNNeQ.webp",
+      "keywords": ["드리핀"]
     },
 
     {
-      "id": 119,
+      "id": 118,
       "artist": "xikers",
       "name": "로빔",
-      "agency": "",
+      "agency": "KQ 엔터테인먼트",
       "tag": "",
       "version": 0,
       "group": true,
       "image": "/images/xikers.jpg",
-      "profile": "https://i.namu.wiki/i/Ras_16ABItRsoP7it0o0pOGa7xXBT5zM96e8bv39DbWvo23pQzfdTtUKiDFvKqYjASPLbGt-cCZ_ilWTC3BAwRgMTSY2Ql4ZJOf6mbNRmcSUW9cdzxe_FNBlxUXpJiuR4RA00GsfHghrwp1YchdVZg.webp"
+      "profile": "https://i.namu.wiki/i/Ras_16ABItRsoP7it0o0pOGa7xXBT5zM96e8bv39DbWvo23pQzfdTtUKiDFvKqYjASPLbGt-cCZ_ilWTC3BAwRgMTSY2Ql4ZJOf6mbNRmcSUW9cdzxe_FNBlxUXpJiuR4RA00GsfHghrwp1YchdVZg.webp",
+      "keywords": ["싸이커스"]
     },
     {
-      "id": 120,
+      "id": 119,
       "artist": "ATBO",
       "name": "엣봉",
-      "agency": "",
-      "tag": "",
+      "agency": "IST엔터테인먼트",
+      "tag": "Kakao",
       "version": 0,
       "group": true,
       "image": "/images/atbo.jpg",
-      "profile": "https://i.namu.wiki/i/8er70o8F4LM9JSFeaak3YiLoNn_IqYf4t0pGTVGxOyzJJM7x7meWOdN8SHDGcQTj-kkl_fXmDl1Xonf7THAj4YOPPm7jpGvOLeiLKOoD5BNlc6p9hvm4Ay7-chQNNVBrewFBD8kKvqsav8qZP9xtdQ.webp"
+      "profile": "https://i.namu.wiki/i/8er70o8F4LM9JSFeaak3YiLoNn_IqYf4t0pGTVGxOyzJJM7x7meWOdN8SHDGcQTj-kkl_fXmDl1Xonf7THAj4YOPPm7jpGvOLeiLKOoD5BNlc6p9hvm4Ay7-chQNNVBrewFBD8kKvqsav8qZP9xtdQ.webp",
+      "keywords": ["에이티비오"]
     },
     {
-      "id": 121,
+      "id": 120,
       "artist": "TEMPEST",
       "name": "아이템봉",
-      "agency": "",
+      "agency": "YH엔터테인먼트",
       "tag": "",
       "version": 0,
       "group": true,
       "image": "/images/tempest.jpg",
-      "profile": "https://i.namu.wiki/i/yQFGoEm0CsvS9FA09Cl7yaq3Yo2weg8dzPfiba3TFJ_Q1FQkXA-FpPqUCYAeoHThYW6UEAJbcXNWJjUd5MGSiIa61Cw70AchhC9-e1TxtbTtcZWZPTpuMzXUhB67bHW5_pHHvxSuGdlzrFsIECbDsQ.webp"
+      "profile": "https://i.namu.wiki/i/yQFGoEm0CsvS9FA09Cl7yaq3Yo2weg8dzPfiba3TFJ_Q1FQkXA-FpPqUCYAeoHThYW6UEAJbcXNWJjUd5MGSiIa61Cw70AchhC9-e1TxtbTtcZWZPTpuMzXUhB67bHW5_pHHvxSuGdlzrFsIECbDsQ.webp",
+      "keywords": ["템피스트"]
     },
     {
-      "id": 122,
-      "artist": "프로미스나인",
+      "id": 121,
+      "artist": "fromis_9",
       "name": "플로봉",
-      "agency": "",
+      "agency": "어센드엔터테인먼트",
       "tag": "",
       "version": 1,
       "group": true,
       "image": "/images/fromis9_v1.webp",
-      "profile": "https://i.namu.wiki/i/ILkWi8-JDBZ4iQyiKIl4CmqPVmoXgxmzC5vAmSNBOjSj1pKyxxDM4C40VtD4dBqlfCMZbHNGacxUiOV3tCQOrWh2Zi6u3ja1abFK9aQL7pal3o0QwS2MpHZk0sA5YIYOwZprwAutBldt6vUg74QiPw.webp"
+      "profile": "https://i.namu.wiki/i/ILkWi8-JDBZ4iQyiKIl4CmqPVmoXgxmzC5vAmSNBOjSj1pKyxxDM4C40VtD4dBqlfCMZbHNGacxUiOV3tCQOrWh2Zi6u3ja1abFK9aQL7pal3o0QwS2MpHZk0sA5YIYOwZprwAutBldt6vUg74QiPw.webp",
+      "keywords": ["프로미스나인", "프미나"]
     },
     {
-      "id": 123,
-      "artist": "프로미스나인",
+      "id": 122,
+      "artist": "fromis_9",
       "name": "플로봉",
-      "agency": "",
+      "agency": "어센드엔터테인먼트",
       "tag": "",
       "version": 2,
       "group": true,
@@ -1353,26 +1433,28 @@
       "profile": "https://i.namu.wiki/i/ILkWi8-JDBZ4iQyiKIl4CmqPVmoXgxmzC5vAmSNBOjSj1pKyxxDM4C40VtD4dBqlfCMZbHNGacxUiOV3tCQOrWh2Zi6u3ja1abFK9aQL7pal3o0QwS2MpHZk0sA5YIYOwZprwAutBldt6vUg74QiPw.webp"
     },
     {
-      "id": 124,
+      "id": 123,
       "artist": "VERIVERY",
       "name": "VE러봉",
-      "agency": "",
+      "agency": "젤리피쉬엔터테인먼트",
       "tag": "",
       "version": 2,
       "group": true,
       "image": "/images/verivery.png",
-      "profile": "https://i.namu.wiki/i/mTR8IzlWNgHcwdxaylEp9UBJ2xEtMxZUsQp2y5Uh7Sko7ngnFakDWzlOzrFEwln6Vug6IMOsk2IyWGrgBocVdLCnztTR7xJ0FJhFfbCKC_VghHFH1jgoLWr8fkzs5OzhW1pD2SvL70JFwYAJRVOIOA.webp"
+      "profile": "https://i.namu.wiki/i/mTR8IzlWNgHcwdxaylEp9UBJ2xEtMxZUsQp2y5Uh7Sko7ngnFakDWzlOzrFEwln6Vug6IMOsk2IyWGrgBocVdLCnztTR7xJ0FJhFfbCKC_VghHFH1jgoLWr8fkzs5OzhW1pD2SvL70JFwYAJRVOIOA.webp",
+      "keywords": ["베리베리"]
     },
     {
-      "id": 125,
+      "id": 124,
       "artist": "CIX",
       "name": "포에봉",
-      "agency": "",
+      "agency": "C9 엔터테인먼트",
       "tag": "",
       "version": 2,
       "group": true,
       "image": "/images/cix.png",
-      "profile": "https://i.namu.wiki/i/5bb9OztQAcjyPDpvQCNfyZQwZoa_6H6PDrxtCkrfLnPKwdMzm6IjlhGaS7Jd4uSULnflqSDwtIph8hIrefjwv_ih_tTVO20y2JSK4UhyagagIhSK1VJBkA1QfsPWRJxgugvIVNdLYPQm-As3IzSACQ.webp"
+      "profile": "https://i.namu.wiki/i/5bb9OztQAcjyPDpvQCNfyZQwZoa_6H6PDrxtCkrfLnPKwdMzm6IjlhGaS7Jd4uSULnflqSDwtIph8hIrefjwv_ih_tTVO20y2JSK4UhyagagIhSK1VJBkA1QfsPWRJxgugvIVNdLYPQm-As3IzSACQ.webp",
+      "keywords": ["씨아이엑스"]
     }
   ]
 }

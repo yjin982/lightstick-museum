@@ -8,6 +8,7 @@ export interface LightstickType {
   group: boolean
   image: string
   profile?: string
+  keywords?: string[]
 }
 
 export interface Filterd {

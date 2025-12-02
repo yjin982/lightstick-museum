@@ -1,19 +1,30 @@
 <script setup lang="ts">
+import { ref } from 'vue'
 import { storeToRefs } from 'pinia'
-import { Search } from 'lucide-vue-next'
+import { Search, X } from 'lucide-vue-next'
 import { agencies } from '@/utils/data'
 import { useLightstickStore } from '@/stores/useLightstickStore'
 
 const store = useLightstickStore()
 const { selectedAgency } = storeToRefs(store)
 
+const query = ref('')
+
 const handleSetAgency = (agency: string) => {
   store.setAgency(agency)
+}
+
+const handleSearch = () => {
+  store.setQuery(query.value)
+}
+
+const clearSearch = () => {
+  query.value = ''
 }
 </script>
 
 <template>
-  <header class="sticky top-0 z-50 bg-white/95 backdrop-blur-sm border-b border-gray-100">
+  <header class="sticky top-0 z-50 bg-white/95 backdrop-blur-sm border-b border-gray-100 text-sm">
     <div class="max-w-6xl mx-auto px-6">
       <!-- 타이틀 -->
       <div class="text-center mb-6">
@@ -26,7 +37,7 @@ const handleSetAgency = (agency: string) => {
 
       <!-- 소속사 필터 -->
       <nav class="flex gap-2 justify-around flex-wrap pb-2">
-        <div class="mr-auto items-center flex gap-1 text-sm">
+        <div class="mr-auto items-center flex gap-1">
           <button
             v-for="agency in agencies"
             :key="agency"
@@ -44,16 +55,30 @@ const handleSetAgency = (agency: string) => {
 
         <!-- 검색창 -->
         <div
-          class="max-w-lg ml-auto flex items-center gap-3 bg-gray-50 border border-gray-200 rounded-full py-1 text-sm transition-all duration-200 focus-within:bg-white focus-within:border-purple-500/30 focus-within:shadow-lg focus-within:shadow-purple-600/10"
+          class="max-w-lg ml-auto flex items-center gap-3 bg-gray-50 border border-gray-200 rounded-full py-1 transition-all duration-200 focus-within:bg-white focus-within:border-purple-500/30 focus-within:shadow-lg focus-within:shadow-purple-600/10"
         >
           <Search :size="18" class="text-gray-400 shrink-0 ml-4" />
           <input
-            id="1"
+            v-model="query"
+            id="search"
             type="text"
             placeholder="응원봉, 아티스트 검색..."
-            class="flex-1 text-sm bg-transparent border-none outline-none text-gray-900 placeholder-gray-400"
+            class="flex-1 bg-transparent border-none outline-none text-gray-900 placeholder-gray-400"
+            @keyup.enter="handleSearch"
+          />
+          <X
+            :size="18"
+            class="text-gray-400 shrink-0 mr-4"
+            :class="query ? 'opacity-100' : 'opacity-0 pointer-events-none'"
+            @click="clearSearch"
           />
         </div>
+        <button
+          class="px-4 rounded-full border border-gray-500/30 hover:border-purple-500/30 text-gray-600 hover:text-purple-600 bg-white hover:bg-purple-100"
+          @click="handleSearch"
+        >
+          Search
+        </button>
       </nav>
     </div>
   </header>

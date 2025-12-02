@@ -8,12 +8,23 @@ export const useLightstickStore = defineStore('lightstick', () => {
   const isOpen = ref(false)
   const selectedItem = ref<LightstickType[] | null>(null)
   const selectedAgency = ref('All')
+  const query = ref('')
 
   const filteredItems = computed(() => {
     return items.value.filter((item) => {
       const matchAgency = selectedAgency.value === 'All' || item.tag === selectedAgency.value
 
-      return matchAgency
+      const searchTerm = query.value.toLowerCase()
+      if (searchTerm) {
+        const matchQuery =
+          item.artist.toLowerCase().includes(searchTerm) ||
+          item.name.toLowerCase().includes(searchTerm) ||
+          item.keywords?.some((k: string) => k.trim().toLowerCase().includes(searchTerm))
+
+        return matchQuery && matchAgency
+      } else {
+        return matchAgency
+      }
     })
   })
 
@@ -61,7 +72,12 @@ export const useLightstickStore = defineStore('lightstick', () => {
     selectedAgency.value = 'All'
   }
 
+  const setQuery = (q: string) => {
+    query.value = q
+  }
+
   return {
+    query,
     filteredItems,
     groupedItems,
     selectedAgency,
@@ -71,5 +87,6 @@ export const useLightstickStore = defineStore('lightstick', () => {
     closeDetail,
     setAgency,
     resetFilters,
+    setQuery,
   }
 })
