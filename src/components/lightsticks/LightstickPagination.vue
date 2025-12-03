@@ -1,12 +1,28 @@
 <script setup lang="ts">
+import { onMounted } from 'vue'
 import { useLightstickStore } from '@/stores/useLightstickStore'
 import { storeToRefs } from 'pinia'
 import { ChevronLeft, ChevronRight, ChevronFirst, ChevronLast, Ellipsis } from 'lucide-vue-next'
+
+interface Prop {
+  itemPerPage: number
+  size: number
+}
+
+const props = withDefaults(defineProps<Prop>(), {
+  itemPerPage: 15,
+  size: 5,
+})
 
 const store = useLightstickStore()
 const { totalPage, currentPage, pageToShow } = storeToRefs(store)
 
 const btnStyle = `px-4 rounded-full border border-gray-500/30 hover:border-purple-500/30 text-gray-400 hover:text-purple-600 bg-white hover:bg-purple-100`
+
+onMounted(() => {
+  store.setItemPerPage(props.itemPerPage)
+  store.setTruncSize(props.size)
+})
 </script>
 <template>
   <div class="mt-12">

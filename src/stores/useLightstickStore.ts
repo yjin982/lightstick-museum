@@ -5,30 +5,30 @@ import lightsticks from '@/assets/lightsticks.json'
 
 export const useLightstickStore = defineStore('lightstick', () => {
   const items = ref<LightstickType[]>(lightsticks.lightsticks)
-  const isOpen = ref(false)
   const selectedItem = ref<LightstickType[] | null>(null)
-  const selectedAgency = ref('All')
-  const query = ref('')
+  const selectedAgency = ref<string>('All')
+  const query = ref<string>('')
 
-  const truncSize = ref(5)
-  const currentPage = ref(1)
-  const itemsPerPage = ref(15)
+  const isOpen = ref<boolean>(false)
+  const truncSize = ref<number>(5)
+  const currentPage = ref<number>(1)
+  const itemsPerPage = ref<number>(15)
 
   const filteredItems = computed(() => {
+    const searchTerm = query.value.trim().toLowerCase()
+    const targetAgency = selectedAgency.value
+
     return items.value.filter((item) => {
-      const matchAgency = selectedAgency.value === 'All' || item.tag === selectedAgency.value
+      const matchAgency = targetAgency === 'All' || item.tag === targetAgency
 
-      const searchTerm = query.value.toLowerCase()
-      if (searchTerm) {
-        const matchQuery =
-          item.artist.toLowerCase().includes(searchTerm) ||
-          item.name.toLowerCase().includes(searchTerm) ||
-          item.keywords?.some((k: string) => k.trim().toLowerCase().includes(searchTerm))
+      if (!searchTerm) return matchAgency
 
-        return matchQuery && matchAgency
-      } else {
-        return matchAgency
-      }
+      const matchQuery =
+        item.artist.toLowerCase().includes(searchTerm) ||
+        item.name.toLowerCase().includes(searchTerm) ||
+        item.keywords?.some((k: string) => k.trim().toLowerCase().includes(searchTerm))
+
+      return matchQuery && matchAgency
     })
   })
 
@@ -43,15 +43,19 @@ export const useLightstickStore = defineStore('lightstick', () => {
       groups[key].push(item)
     })
 
-    Object.keys(groups).forEach((key) => {
-      groups[key].sort((a, b) => b.version - a.version)
-    })
+    return Object.values(groups).map((versions) => {
+      versions.sort((a, b) => b.version - a.version)
 
-    // 각 그룹의 첫 번째 아이템과 나머지 버전들 반환
-    return Object.values(groups).map((versions) => ({
-      main: versions[0],
-      versions: versions,
-    }))
+      return {
+        main: versions[0], // 가장 최신 버전 혹은 대표 아이템
+        versions: versions,
+      }
+    })
+  })
+
+  const totalPage = computed(() => {
+    if (groupedItems.value.length === 0) return 1
+    return Math.ceil(groupedItems.value.length / itemsPerPage.value)
   })
 
   const paginatedItems = computed(() => {
@@ -60,81 +64,48 @@ export const useLightstickStore = defineStore('lightstick', () => {
     return groupedItems.value.slice(start, end)
   })
 
-  const totalPage = computed(() => Math.ceil(groupedItems.value.length / itemsPerPage.value))
-
   const pageToShow = computed<Array<number | null>>(() => {
-    const pages: Array<number | null> = []
-    const maxPage = totalPage.value
+    const total = totalPage.value
     const current = currentPage.value
+    const size = truncSize.value // 중간에 표시할 페이지 개수
 
-    // 1. 페이지 수가 1개 이하일 경우
-    if (maxPage <= 1) {
-      return maxPage === 1 ? [1] : []
+    // 1. 페이지가 없거나 1개뿐인 경우
+    if (total <= 1) return [1]
+
+    // 2. 전체 페이지가 설정된 사이즈보다 작거나 같으면 전체 표시 (1 ~ total)
+    if (total <= size) {
+      return Array.from({ length: total }, (_, i) => i + 1)
     }
 
-    // 2. truncSize가 전체 페이지 수보다 크거나 같을 경우, 모두 표시
-    if (truncSize.value >= maxPage) {
-      for (let i = 1; i <= maxPage; i++) {
-        pages.push(i)
-      }
-      return pages
-    }
+    const pages: Array<number | null> = [1]
 
-    // 3. 페이지네이션 생략 로직
-    const fixedSize = truncSize.value // 중앙 블록에 표시할 페이지 수 (예: 5)
-    const radius = Math.floor(fixedSize / 2) // 현재 페이지 기준 좌우 거리 (예: 2)
+    // 3. 중간 블록의 시작(start)과 끝(end) 계산
+    let start = current - Math.floor(size / 2)
+    let end = start + size - 1
 
-    let start = current - radius
-    let end = current + radius
-
-    // **경계 조건 A: 시작 지점 조정 (1페이지 근처)**
-    // 중앙 블록이 1페이지를 넘어갈 때, 블록을 우측으로 확장하여 fixedSize만큼 표시
+    // 4. 범위 보정 (Clamping)
+    // start가 2보다 작아지면(1과 겹치면) 강제로 2로 고정하고 end를 늘림
     if (start <= 2) {
       start = 2
-      // end는 maxPage-1과 fixedSize 중 작은 값으로 설정하여 페이지 1과 겹치지 않게 함
-      end = Math.min(maxPage - 1, fixedSize)
+      end = Math.min(total - 1, start + size - 1)
+    }
+    // end가 마지막 페이지와 겹치면 강제로 줄이고 start를 당김
+    else if (end >= total - 1) {
+      end = total - 1
+      start = Math.max(2, end - size + 1)
     }
 
-    // **경계 조건 B: 끝 지점 조정 (마지막 페이지 근처)**
-    // 중앙 블록이 maxPage를 넘어갈 때, 블록을 좌측으로 이동하여 fixedSize만큼 표시
-    else if (end >= maxPage - 1) {
-      end = maxPage - 1
-      // 시작점을 maxPage - fixedSize + 1로 설정 (예: 15-5+1=11)
-      start = Math.max(2, maxPage - fixedSize + 1)
-    }
-
-    // 4. 배열 구성
-    pages.push(1) // 항상 1페이지 포함
-
-    // 선행 생략 부호 (...)
-    // start가 2보다 크면 1과 start 사이에 생략된 페이지가 있음
-    if (start > 2) {
-      pages.push(null)
-    }
-
-    // 중앙 페이지 블록 추가
-    for (let i = start; i <= end; i++) {
-      // 1페이지와 maxPage는 이미 포함되었거나 나중에 포함되므로 중복 방지
-      if (i !== 1 && i !== maxPage) {
-        pages.push(i)
-      }
-    }
-
-    // 후행 생략 부호 (...)
-    // end가 maxPage-1보다 작으면 end와 maxPage 사이에 생략된 페이지가 있음
-    if (end < maxPage - 1) {
-      pages.push(null)
-    }
-
-    // 마지막 페이지 추가
-    if (maxPage > 1 && pages[pages.length - 1] !== maxPage) {
-      pages.push(maxPage)
-    }
+    // 5. 배열 구성
+    if (start > 2) pages.push(null)
+    for (let i = start; i <= end; i++) pages.push(i) // 중간 페이지들
+    if (end < total - 1) pages.push(null)
+    pages.push(total) // 마지막 페이지
 
     return pages
   })
 
   const openDetail = (item: LightstickType[]) => {
+    console.log('sdfsdf')
     isOpen.value = true
     selectedItem.value = item
   }
@@ -155,6 +126,7 @@ export const useLightstickStore = defineStore('lightstick', () => {
 
   const resetFilters = () => {
     selectedAgency.value = 'All'
+    currentPage.value = 1
   }
 
   const setQuery = (q: string) => {
@@ -182,6 +154,15 @@ export const useLightstickStore = defineStore('lightstick', () => {
     currentPage.value = totalPage.value
   }
 
+  const setItemPerPage = (size: number = 15) => {
+    itemsPerPage.value = size
+    currentPage.value = 1
+  }
+
+  const setTruncSize = (size: number = 5) => {
+    truncSize.value = size
+  }
+
   return {
     query,
     filteredItems,
@@ -203,5 +184,7 @@ export const useLightstickStore = defineStore('lightstick', () => {
     goToNext,
     goToFirst,
     goToLast,
+    setItemPerPage,
+    setTruncSize,
   }
 })

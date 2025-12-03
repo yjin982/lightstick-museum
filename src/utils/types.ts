@@ -11,7 +11,7 @@ export interface LightstickType {
   keywords?: string[]
 }
 
-export interface Filterd {
+export interface GroupedLightstick {
   main: LightstickType
   versions: LightstickType[]
 }

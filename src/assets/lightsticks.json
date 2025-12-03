@@ -1455,6 +1455,78 @@
       "image": "/images/cix.png",
       "profile": "https://i.namu.wiki/i/5bb9OztQAcjyPDpvQCNfyZQwZoa_6H6PDrxtCkrfLnPKwdMzm6IjlhGaS7Jd4uSULnflqSDwtIph8hIrefjwv_ih_tTVO20y2JSK4UhyagagIhSK1VJBkA1QfsPWRJxgugvIVNdLYPQm-As3IzSACQ.webp",
       "keywords": ["씨아이엑스"]
+    },
+    {
+      "id": 125,
+      "artist": "2NE1",
+      "name": "크러쉬봉",
+      "agency": "YG",
+      "tag": "",
+      "version": 0,
+      "group": true,
+      "image": "/images/yg/2ne1.jpg",
+      "profile": "https://i.namu.wiki/i/8ZKaM__K5tRsxfn0H52L33NZ9cifNdwLB7-GjScF20uRHA4NEGTC6sZkpQ100GdnSV6pFlCuOc0lfWYusRybq8D0iM1ji7vDHCCI1BF0QPRhuqTA6n9ngOXFYD7VoWPdZcJjZZ9AJgQyk3Zo5GBcLw.webp",
+      "keywords": ["투애니원"]
+    },
+    {
+      "id": 126,
+      "artist": "BIGBANG",
+      "name": "뱅봉",
+      "agency": "YG",
+      "tag": "",
+      "version": 0,
+      "group": true,
+      "image": "/images/yg/bigbang.webp",
+      "profile": "https://i.namu.wiki/i/jHAZ1yULF8ZRmkev-R_Rp7oeYqoggu00BsakWo2iTmZUIOIS6kyckXW1NJ3jlg1uKsLRvRuCj4QXregvR0eB3_70mlV_mgtz9m2H508uoSITkvA7qktYDNXQpKFCWGhBtXvid0XFswQ4wO9SZHcE3g.webp",
+      "keywords": ["빅뱅"]
+    },
+    {
+      "id": 127,
+      "artist": "GOD",
+      "name": "하풍봉",
+      "agency": "젬스톤이앤엠",
+      "tag": "",
+      "version": 0,
+      "group": true,
+      "image": "/images/god.jpg",
+      "profile": "https://i.namu.wiki/i/pIjxZ0YeIy5FpsmrbdpBE1mDCjklQIK9w7WkwbrqB-Ea34w0oL5SQxkiOz43DlLlOGxfjN-V5xM7O8LEKLXrxfDRYzRDj6K7mPrc9NAL-phfL8_OeWV2GQTHSMYgj3glTJGBTo65muZRC0n87ro-fQ.webp",
+      "keywords": ["지오디"]
+    },
+    {
+      "id": 128,
+      "artist": "DKZ",
+      "name": "",
+      "agency": "동요엔터테인먼트",
+      "tag": "",
+      "version": 0,
+      "group": true,
+      "image": "/images/dkz.jpg",
+      "profile": "https://i.namu.wiki/i/6_Vp7tF9OJaXttHGD7Ld9N1hSIA8Q1IYgRs85SJzRLtjkfpju_jIqEYSwGs0ueb7qHFsqyqXcG5xgltxXE3iualzKdaE4aeZ3B_FW5ZlyN7tqUA-3vfnAsaHEQIr3Po9Ov-B9MlTwtotpqxfpNCezQ.webp",
+      "keywords": ["디케이지"]
+    },
+    {
+      "id": 129,
+      "artist": "HUNTR/X",
+      "name": "",
+      "agency": "",
+      "tag": "",
+      "version": 0,
+      "group": true,
+      "image": "/images/huntrix.jpg",
+      "profile": "https://i.namu.wiki/i/AxTPo_RnRUnjcFBNtwSgT7rMfUAIN-VY8Pb95At3sqGmQqxUBTKMs3Qaudj04k1iwQqK6v0noZEony7Aapcn748XXwsKC8eJjnnBuaw1Ci51y6Exdj5hMZo9_lvqLlpJ2SidDM0Z4ZgDJh1N6QQqJA.webp",
+      "keywords": ["헌트릭스", "케데헌"]
+    },
+    {
+      "id": 130,
+      "artist": "Saja Boys",
+      "name": "",
+      "agency": "",
+      "tag": "",
+      "version": 0,
+      "group": true,
+      "image": "/images/sajaboys.jpg",
+      "profile": "https://i.namu.wiki/i/-KQKQ0JdehkoMr59oVvuqEF7udBGz8pOnxeTAyTpk-EXtYpoF83WcZA3QYAmkU41YFGstFuDagFxvliZ5DNOhJ0TgLfc1Emqg5vOv2PNaTDJSbcYc6yr6MgzlIUwXYoNBAGIP1fai7b5EImrKMXZww.webp",
+      "keywords": ["사자보이즈", "케데헌"]
     }
   ]
 }

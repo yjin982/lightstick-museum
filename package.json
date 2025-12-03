@@ -16,8 +16,8 @@
     "format": "prettier --write src/"
   },
   "dependencies": {
+    "@headlessui/vue": "^1.7.23",
     "@tailwindcss/vite": "^4.1.17",
-    "gitart-vue-dialog": "^3.1.0",
     "lucide-vue-next": "^0.554.0",
     "pinia": "^3.0.3",
     "tailwindcss": "^4.1.17",

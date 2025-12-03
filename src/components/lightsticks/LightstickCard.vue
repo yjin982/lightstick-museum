@@ -2,24 +2,31 @@
 import { storeToRefs } from 'pinia'
 import type { LightstickType } from '@/utils/types.ts'
 import { useLightstickStore } from '@/stores/useLightstickStore'
-import LightstickCardDetail from './LightstickCardDetail.vue'
+import LightstickCardDetail from '@/components/lightsticks/LightstickCardDetail.vue'
 import { Carousel, Slide, Pagination } from 'vue3-carousel'
 
 interface Prop {
-  lightStick: LightstickType
+  lightStick: LightstickType | undefined
   url: string
   versions?: LightstickType[]
 }
 
-const { lightStick, url = '', versions = [] } = defineProps<Prop>()
+const {
+  lightStick = {
+    id: 0,
+    artist: '',
+    name: '',
+    agency: '',
+    tag: '',
+    version: 0,
+    group: false,
+    image: '',
+  },
+  url = '',
+  versions = [],
+} = defineProps<Prop>()
 
 const store = useLightstickStore()
-const { isOpen, selectedItem } = storeToRefs(store)
-
-const openDialog = () => {
-  isOpen.value = true
-  selectedItem.value = versions
-}
 
 const config = {
   itemsToShow: 1,
@@ -37,11 +44,7 @@ const config = {
     <div class="w-full h-full flex items-around justify-center">
       <Carousel v-bind="config">
         <Slide v-for="item of versions" :key="item.id" class="h-70">
-          <img
-            :src="item.image"
-            :alt="lightStick.artist"
-            class="max-w-full max-h-full object-contain"
-          />
+          <img :src="item.image" :alt="item.artist" class="max-w-full max-h-full object-contain" />
         </Slide>
 
         <template #addons>
@@ -53,7 +56,7 @@ const config = {
     <!-- 뒷면 -->
     <div
       class="absolute bg-zinc-100 inset-0 -translate-y-full transition-transform duration-500 ease-out group-hover:translate-y-0 z-40"
-      @click="openDialog"
+      @click="store.openDetail(versions)"
     >
       <div class="w-full h-4/5 bg-zinc-100 flex flex-col items-center justify-center">
         <img
@@ -66,7 +69,7 @@ const config = {
         <div class="text-lg font-bold text-center text-gray-900">{{ lightStick.artist }}</div>
         <div class="text-sm text-center text-gray-600">{{ lightStick.agency }}</div>
       </div>
-      <LightstickCardDetail />
+      <!-- <LightstickCardDetail /> -->
     </div>
   </div>
 </template>

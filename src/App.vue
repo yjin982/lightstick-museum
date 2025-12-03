@@ -1,7 +1,8 @@
 <script setup lang="ts">
 import { RouterView } from 'vue-router'
-import AppHeader from './components/layout/AppHeader.vue'
-import AppFooter from './components/layout/AppFooter.vue'
+import AppHeader from '@/components/layout/AppHeader.vue'
+import AppFooter from '@/components/layout/AppFooter.vue'
+import LightstickCardDetail from '@/components/lightsticks/LightstickCardDetail.vue'
 </script>
 
 <template>
@@ -10,6 +11,7 @@ import AppFooter from './components/layout/AppFooter.vue'
 
     <main class="main-content">
       <RouterView />
+      <LightstickCardDetail />
     </main>
 
     <AppFooter />
