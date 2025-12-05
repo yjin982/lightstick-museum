@@ -54,7 +54,7 @@ onMounted(() => {
           </button>
         </template>
       </div>
-      <button :class="btnStyle" @click="store.goToPrev" :disabled="currentPage === totalPage">
+      <button :class="btnStyle" @click="store.goToNext" :disabled="currentPage === totalPage">
         <ChevronRight :size="18" class="shrink-0" />
       </button>
       <button :class="btnStyle" @click="store.goToLast" :disabled="currentPage === totalPage">

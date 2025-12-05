@@ -1,9 +1,8 @@
 <script setup lang="ts">
-import { storeToRefs } from 'pinia'
+import { computed, onMounted } from 'vue'
+import { Carousel, Slide, Pagination } from 'vue3-carousel'
 import type { LightstickType } from '@/utils/types.ts'
 import { useLightstickStore } from '@/stores/useLightstickStore'
-import LightstickCardDetail from '@/components/lightsticks/LightstickCardDetail.vue'
-import { Carousel, Slide, Pagination } from 'vue3-carousel'
 
 interface Prop {
   lightStick: LightstickType | undefined
@@ -28,12 +27,21 @@ const {
 
 const store = useLightstickStore()
 
-const config = {
-  itemsToShow: 1,
-  gap: 5,
-  autoplay: 3000,
-  wrapAround: true,
-}
+const config = computed(() => {
+  if (versions.length > 1) {
+    return {
+      itemsToShow: 1,
+      gap: 5,
+      autoplay: 3000,
+      wrapAround: true,
+    }
+  } else {
+    return {
+      itemsToShow: 1,
+      gap: 5,
+    }
+  }
+})
 </script>
 
 <template>
@@ -41,7 +49,7 @@ const config = {
     class="group relative w-52 h-78 bg-white rounded-lg shadow-xl overflow-hidden cursor-pointer"
   >
     <!-- 앞면 -->
-    <div class="w-full h-full flex items-around justify-center">
+    <div class="w-full h-full flex items-center justify-center">
       <Carousel v-bind="config">
         <Slide v-for="item of versions" :key="item.id" class="h-70">
           <img :src="item.image" :alt="item.artist" class="max-w-full max-h-full object-contain" />
@@ -55,21 +63,19 @@ const config = {
 
     <!-- 뒷면 -->
     <div
-      class="absolute bg-zinc-100 inset-0 -translate-y-full transition-transform duration-500 ease-out group-hover:translate-y-0 z-40"
+      class="absolute bg-zinc-100 inset-0 -translate-y-full transition-transform duration-500 ease-out group-hover:translate-y-0 z-40 flex flex-col"
       @click="store.openDetail(versions)"
     >
-      <div class="w-full h-4/5 bg-zinc-100 flex flex-col items-center justify-center">
+      <div class="w-full h-4/5 bg-zinc-100">
         <img
-          :src="lightStick.profile ?? url"
+          :src="versions[0]?.profile ?? url"
           :alt="lightStick.artist"
-          class="max-w-full max-h-full object-contain"
+          class="w-full! h-full! object-contain"
         />
       </div>
-      <div class="w-full h-1/5 pb-4">
+      <div class="w-full h-1/5 flex items-center justify-center">
         <div class="text-lg font-bold text-center text-gray-900">{{ lightStick.artist }}</div>
-        <div class="text-sm text-center text-gray-600">{{ lightStick.agency }}</div>
       </div>
-      <!-- <LightstickCardDetail /> -->
     </div>
   </div>
 </template>

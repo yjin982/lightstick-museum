@@ -3,9 +3,22 @@ import { defineStore } from 'pinia'
 import type { LightstickType } from '@/utils/types'
 import lightsticks from '@/assets/lightsticks.json'
 
+const defaultValue = [
+  {
+    id: 0,
+    artist: '',
+    name: '',
+    agency: '',
+    tag: 'string',
+    version: 0,
+    group: false,
+    image: 'string',
+  },
+]
+
 export const useLightstickStore = defineStore('lightstick', () => {
   const items = ref<LightstickType[]>(lightsticks.lightsticks)
-  const selectedItem = ref<LightstickType[] | null>(null)
+  const selectedItem = ref<LightstickType[]>(defaultValue)
   const selectedAgency = ref<string>('All')
   const query = ref<string>('')
 
@@ -105,14 +118,13 @@ export const useLightstickStore = defineStore('lightstick', () => {
   })
 
   const openDetail = (item: LightstickType[]) => {
-    console.log('sdfsdf')
     isOpen.value = true
     selectedItem.value = item
   }
 
   const closeDetail = () => {
     isOpen.value = false
-    selectedItem.value = null
+    selectedItem.value = defaultValue
   }
 
   const setAgency = (agency: string) => {

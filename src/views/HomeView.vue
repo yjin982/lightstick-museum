@@ -19,7 +19,7 @@ const { paginatedItems } = storeToRefs(store)
         :url="group.main?.profile ?? ''"
       />
     </div>
-    <div><Pagination :item-per-page="10" :size="3" /></div>
+    <div><Pagination :item-per-page="300" :size="3" /></div>
   </div>
 </template>
 

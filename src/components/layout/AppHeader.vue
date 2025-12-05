@@ -32,13 +32,13 @@ const clearSearch = () => {
         <h1
           class="text-3xl font-extrabold tracking-tight mb-1 bg-linear-to-r from-sky-200 from-35% to-fuchsia-200 to-60% bg-clip-text text-transparent"
         >
-          응원봉 아라보자
+          LIGHTSTICK MUSEUM
         </h1>
       </div>
 
       <!-- 소속사 필터 -->
       <nav class="flex gap-2 justify-around flex-wrap pb-2">
-        <div class="mr-auto items-center flex gap-1">
+        <div class="mr-auto items-center flex flex-wrap group-first:gap-1">
           <button
             v-for="agency in agencies"
             :key="agency"
