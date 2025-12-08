@@ -13,7 +13,7 @@ const { paginatedItems } = storeToRefs(store)
     <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-6">
       <LightstickCard v-for="(item, idx) in paginatedItems" :key="idx" :light-stick="item" />
     </div>
-    <div><Pagination :item-per-page="15" :size="3" /></div>
+    <div><Pagination :size="3" /></div>
   </div>
 </template>
 

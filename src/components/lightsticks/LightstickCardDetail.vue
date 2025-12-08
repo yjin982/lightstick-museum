@@ -88,7 +88,7 @@ const config = {
             @click="store.closeDetail"
             class="px-6 py-2 bg-purple-500/30 text-purple-600 rounded-4xl border! border-purple-500/30!"
           >
-            닫기
+            Close
           </button>
         </div>
       </DialogPanel>

@@ -16,3 +16,5 @@ export interface LightstickData {
   keywords?: string[]
   items: LightstickItem[] // 버전별 응원봉 리스트
 }
+
+export const agencies = ['All', 'HYBE', 'SM', 'JYP', 'YG', 'Kakao', 'CJ ENM', 'ETC']

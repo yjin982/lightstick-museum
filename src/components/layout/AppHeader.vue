@@ -2,7 +2,7 @@
 import { ref } from 'vue'
 import { storeToRefs } from 'pinia'
 import { Search, X } from 'lucide-vue-next'
-import { agencies } from '@/utils/data'
+import { agencies } from '@/utils/types'
 import { useLightstickStore } from '@/stores/useLightstickStore'
 
 const store = useLightstickStore()
@@ -63,7 +63,7 @@ const clearSearch = () => {
             v-model="query"
             id="search"
             type="text"
-            placeholder="응원봉, 아티스트 검색..."
+            placeholder="LightStick, Artist ..."
             class="flex-1 bg-transparent border-none outline-none text-gray-900 placeholder-gray-400"
             @keyup.enter="handleSearch"
           />

@@ -21,7 +21,7 @@ export const useLightstickStore = defineStore('lightstick', () => {
   const isOpen = ref<boolean>(false)
   const truncSize = ref<number>(5)
   const currentPage = ref<number>(1)
-  const itemsPerPage = ref<number>(15)
+  const itemsPerPage = ref(5)
 
   const filteredItems = computed(() => {
     const searchTerm = query.value.trim().toLowerCase()
@@ -141,7 +141,8 @@ export const useLightstickStore = defineStore('lightstick', () => {
     currentPage.value = totalPage.value
   }
 
-  const setItemPerPage = (size: number = 15) => {
+  const setItemPerPage = (size: number = 5) => {
+    console.log(size, 'sdfsd')
     itemsPerPage.value = size
     currentPage.value = 1
   }
@@ -157,6 +158,7 @@ export const useLightstickStore = defineStore('lightstick', () => {
     currentPage,
     totalPage,
     pageToShow,
+    itemsPerPage,
     selectedAgency,
     isOpen,
     selectedItem,

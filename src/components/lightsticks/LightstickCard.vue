@@ -43,7 +43,7 @@ const config = computed(() => {
   >
     <!-- 앞면 -->
     <div class="w-full h-full flex items-center justify-center">
-      <Carousel v-bind="config">
+      <Carousel v-bind="config" :key="lightStick.id">
         <Slide v-for="item of lightStick.items" :key="item.id" class="h-70">
           <img :src="item.image" :alt="item.name" class="max-w-full max-h-full object-contain" />
         </Slide>

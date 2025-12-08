@@ -3,14 +3,13 @@ import { onMounted } from 'vue'
 import { useLightstickStore } from '@/stores/useLightstickStore'
 import { storeToRefs } from 'pinia'
 import { ChevronLeft, ChevronRight, ChevronFirst, ChevronLast, Ellipsis } from 'lucide-vue-next'
+import PageDropdown from './PageDropdown.vue'
 
 interface Prop {
-  itemPerPage: number
   size: number
 }
 
 const props = withDefaults(defineProps<Prop>(), {
-  itemPerPage: 15,
   size: 5,
 })
 
@@ -20,7 +19,7 @@ const { totalPage, currentPage, pageToShow } = storeToRefs(store)
 const btnStyle = `px-4 rounded-full border border-gray-500/30 hover:border-purple-500/30 text-gray-400 hover:text-purple-600 bg-white hover:bg-purple-100`
 
 onMounted(() => {
-  store.setItemPerPage(props.itemPerPage)
+  store.setItemPerPage()
   store.setTruncSize(props.size)
 })
 </script>
@@ -53,6 +52,8 @@ onMounted(() => {
             <Ellipsis :size="18" class="shrink-0" />
           </button>
         </template>
+
+        <PageDropdown />
       </div>
       <button :class="btnStyle" @click="store.goToNext" :disabled="currentPage === totalPage">
         <ChevronRight :size="18" class="shrink-0" />
