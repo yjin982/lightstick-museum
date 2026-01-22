@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import { useLightstickStore } from '@/stores/useLightstickStore'
 import { storeToRefs } from 'pinia'
-import { Dialog, DialogPanel, DialogTitle } from '@headlessui/vue'
+import { Dialog, DialogPanel } from '@headlessui/vue'
 import { Carousel, Slide, Pagination, Navigation as CarouselNavigation } from 'vue3-carousel'
 import { X, ChevronLeft, ChevronRight } from 'lucide-vue-next'
 
@@ -19,76 +19,84 @@ const config = {
     <div class="fixed inset-0 bg-black/30" aria-hidden="true"></div>
 
     <div class="fixed inset-0 flex items-center justify-center p-4">
-      <DialogPanel class="w-full max-w-4xl max-h-[90vh] flex flex-col rounded bg-white" as="div">
-        <DialogTitle as="div" class="pt-6 px-6 flex justify-end items-center">
-          <button @click="store.closeDetail" class="px-6 py-2">
-            <X :size="24" class="text-gray-400 hover:text-black shrink-0" />
-          </button>
-        </DialogTitle>
-
-        <div class="flex-1 overflow-y-auto p-6">
-          <div class="px-6">
-            <p class="text-lg font-bold">{{ selectedItem.artist }}</p>
-            <p class="text-sm text-gray-600">{{ selectedItem.agency }}</p>
+      <DialogPanel class="w-full md:w-[70%] max-h-[90vh] flex flex-col rounded bg-white" as="div">
+        <div class="relative flex-1 overflow-y-auto min-h-[500px]">
+          <!-- 팝업 배경  -->
+          <div class="absolute inset-0 z-0">
+            <img
+              :src="selectedItem.profile"
+              class="w-full h-full object-cover blur-[80px] opacity-20"
+            />
           </div>
 
-          <div class="flex items-center gap-6 px-6">
-            <div class="w-[40%] flex flex-col justify-start gap-4">
-              <div class="w-full h-90 flex items-center justify-start overflow-hidden">
+          <!-- 닫기 버튼 -->
+          <div class="w-full flex items-end justify-end pt-4 pr-4">
+            <button
+              @click="store.closeDetail"
+              class="p-6 z-10 rounded-full border border-white/50 shadow-sm hover:bg-purple-200/60 text-gray-400 hover:text-black"
+            >
+              <X :size="24" class="shrink-0" />
+            </button>
+          </div>
+
+          <div class="relative z-10 p-10 flex flex-col md:flex-row gap-10">
+            <!-- 아티스트 정보 -->
+            <div class="w-full md:w-1/2 flex flex-col gap-4">
+              <div class="bg-white/40 backdrop-blur-sm rounded-2xl p-4 shadow-inner">
                 <img
-                  class="object-contain w-auto! h-full! mask-radial-[100%_100%] mask-radial-from-75% mask-radial-at-left"
                   :src="selectedItem.profile"
+                  class="w-full h-auto max-h-[500px] object-contain rounded-xl shadow-lg"
                 />
+              </div>
+              <div class="px-2">
+                <h2 class="text-4xl font-black text-zinc-900">{{ selectedItem.artist }}</h2>
+                <p class="text-lg text-purple-600 font-semibold">{{ selectedItem.agency }}</p>
+                <div class="flex flex-wrap gap-2 mt-4">
+                  <span
+                    v-for="tag in selectedItem.keywords"
+                    :key="tag"
+                    class="px-3 py-1 bg-white/60 text-xs rounded-full border border-white/50 shadow-sm"
+                  >
+                    # {{ tag }}
+                  </span>
+                </div>
               </div>
             </div>
 
-            <div class="w-[60%]">
-              <Carousel id="sticks" v-bind="config" slide-effect="fade" :height="320">
-                <Slide
-                  v-for="stick in selectedItem.items"
-                  :key="stick.id"
-                  class="flex flex-col h-80! w-hull items-start justify-start pb-10"
-                >
-                  <div class="font-mono text-xs text-purple-500 dark:text-purple-40">
-                    <span class="absolute top-0 right-0">
-                      {{ stick.name }}
-                    </span>
-                    <span v-if="selectedItem.items.length > 1" class="absolute top-5 right-0">
-                      version {{ stick.version }}
-                    </span>
-                  </div>
-                  <img
-                    :src="stick.image"
-                    :alt="stick.name"
-                    class="w-full! h-auto! object-contain"
-                  />
-                </Slide>
-
-                <template #addons>
-                  <template v-if="selectedItem.items && selectedItem.items.length > 1">
-                    <CarouselNavigation>
-                      <template #prev>
-                        <ChevronLeft :size="20" class="text-gray-400 hover:text-black shrink-0" />
-                      </template>
-                      <template #next>
-                        <ChevronRight :size="20" class="text-gray-400 hover:text-black shrink-0" />
-                      </template>
-                    </CarouselNavigation>
-                    <Pagination />
+            <div class="w-full md:w-1/2 flex flex-col justify-start">
+              <!-- 응원봉 사진 -->
+              <div
+                class="relative bg-white/30 backdrop-blur-sm rounded-3xl p-8 border border-white/50"
+              >
+                <Carousel v-bind="config" id="sticks">
+                  <Slide v-for="stick in selectedItem.items" :key="stick.id">
+                    <div class="flex flex-col items-center">
+                      <div class="flex items-center justify-between w-full">
+                        <div class="font-medium text-zinc-700">
+                          {{ stick.name || 'Official Lightstick' }}
+                        </div>
+                        <div
+                          class="bg-purple-500 text-white px-3 py-1 rounded-full text-xs font-bold"
+                        >
+                          Ver. {{ stick.version }}
+                        </div>
+                      </div>
+                      <div class="image-container">
+                        <img
+                          :src="stick.image"
+                          class="w-full h-full object-contain drop-shadow-2xl"
+                        />
+                      </div>
+                    </div>
+                  </Slide>
+                  <template #addons>
+                    <Pagination class="mt-10" />
+                    <Navigation />
                   </template>
-                </template>
-              </Carousel>
+                </Carousel>
+              </div>
             </div>
           </div>
-        </div>
-
-        <div class="pb-6 px-6 flex justify-end items-center">
-          <button
-            @click="store.closeDetail"
-            class="px-6 py-2 bg-purple-500/30 text-purple-600 rounded-4xl border! border-purple-500/30!"
-          >
-            Close
-          </button>
         </div>
       </DialogPanel>
     </div>
@@ -104,5 +112,10 @@ const config = {
   height: 100%;
   object-fit: contain;
   overflow: hidden;
+}
+
+.image-container {
+  width: 300px;
+  height: 350px;
 }
 </style>
