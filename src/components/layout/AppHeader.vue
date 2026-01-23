@@ -45,7 +45,7 @@ const clearSearch = () => {
             @click="handleSetAgency(agency)"
             :class="[
               'px-4 rounded-full font-normal transition-all duration-200',
-              selectedAgency === agency
+              selectedAgency === (agency === 'ETC' ? '' : agency)
                 ? 'text-purple-600 border border-purple-500/30 shadow-md shadow-purple-500/20'
                 : 'text-gray-600 hover:text-purple-600 bg-white hover:bg-purple-100 hover:-translate-y-0.5',
             ]"
