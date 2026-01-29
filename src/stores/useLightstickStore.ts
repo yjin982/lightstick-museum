@@ -13,7 +13,9 @@ const defaultItem: LightstickData = {
 }
 
 export const useLightstickStore = defineStore('lightstick', () => {
-  const items = ref<LightstickData[]>(lightsticks.lightsticks)
+  const items = ref<LightstickData[]>(
+    lightsticks.lightsticks.sort((a, b) => a.artist.localeCompare(b.artist, 'ko-KR')),
+  )
   const selectedItem = ref<LightstickData>(defaultItem)
   const selectedAgency = ref<string>('All')
   const query = ref<string>('')

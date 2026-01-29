@@ -3,7 +3,7 @@ import { useLightstickStore } from '@/stores/useLightstickStore'
 import { storeToRefs } from 'pinia'
 import { Dialog, DialogPanel } from '@headlessui/vue'
 import { Carousel, Slide, Pagination, Navigation as CarouselNavigation } from 'vue3-carousel'
-import { X, ChevronLeft, ChevronRight } from 'lucide-vue-next'
+import { X } from 'lucide-vue-next'
 
 const store = useLightstickStore()
 const { isOpen, selectedItem } = storeToRefs(store)
@@ -91,7 +91,7 @@ const config = {
                   </Slide>
                   <template #addons>
                     <Pagination class="mt-10" />
-                    <Navigation />
+                    <CarouselNavigation />
                   </template>
                 </Carousel>
               </div>
