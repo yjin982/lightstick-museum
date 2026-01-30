@@ -4,10 +4,12 @@
   "private": true,
   "type": "module",
   "engines": {
-    "node": "v24.12.x"
+    "node": "v24.13.0"
   },
   "scripts": {
     "dev": "vite",
+    "dev:vercel": "vercel dev",
+    "dev:all": "vercel dev",
     "build": "run-p type-check \"build-only {@}\" --",
     "preview": "vite preview",
     "build-only": "vite build",
@@ -17,6 +19,7 @@
   },
   "dependencies": {
     "@headlessui/vue": "^1.7.23",
+    "@neondatabase/serverless": "^1.0.2",
     "@tailwindcss/vite": "^4.1.17",
     "@vercel/postgres": "^0.10.0",
     "axios": "^1.13.2",
@@ -30,6 +33,7 @@
   "devDependencies": {
     "@tsconfig/node22": "^22.0.2",
     "@types/node": "^22.18.11",
+    "@vercel/node": "^5.5.28",
     "@vitejs/plugin-vue": "^6.0.1",
     "@vitejs/plugin-vue-jsx": "^5.1.1",
     "@vue/eslint-config-prettier": "^10.2.0",
